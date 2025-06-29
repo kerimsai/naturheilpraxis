@@ -43,7 +43,7 @@ export function Services() {
       </div>
        <div className="mt-16 text-center">
         <Button asChild variant="outline" size="lg">
-            <Link href="#services">Alle Leistungen anzeigen</Link>
+            <Link href="/services">Alle Leistungen anzeigen</Link>
         </Button>
       </div>
     </section>

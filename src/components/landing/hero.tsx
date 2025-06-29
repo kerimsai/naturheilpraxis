@@ -18,7 +18,7 @@ export function Hero() {
             <Link href="#booking">Termin buchen</Link>
           </Button>
           <Button asChild variant="outline" size="lg">
-            <Link href="#services">Leistungen entdecken</Link>
+            <Link href="/services">Leistungen entdecken</Link>
           </Button>
         </div>
       </div>

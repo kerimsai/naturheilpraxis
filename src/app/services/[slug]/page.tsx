@@ -54,7 +54,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                   <Link href="/#booking">Termin buchen</Link>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                  <Link href="/#services">Alle Leistungen</Link>
+                  <Link href="/services">Alle Leistungen</Link>
                 </Button>
               </div>
             </div>

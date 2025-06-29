@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 
 const navLinks = [
-  { href: "/#services", label: "Leistungen" },
+  { href: "/services", label: "Leistungen" },
   { href: "/#testimonials", label: "Erfahrungsberichte" },
   { href: "/#wellness", label: "KI-Assistent" },
   { href: "/#booking", label: "Termin" },
