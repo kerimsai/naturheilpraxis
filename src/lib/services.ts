@@ -1,5 +1,5 @@
 
-import { Droplets, ShieldCheck, Microscope, Leaf, Ear, Filter, Activity, Spline, Gem, LucideProps } from 'lucide-react';
+import { Droplets, ShieldCheck, Microscope, Leaf, Ear, Filter, Activity, Spline, Gem, Sparkles, LucideProps } from 'lucide-react';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 
 export type Service = {
@@ -146,5 +146,17 @@ Anwendungsbeispiele:
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "minerals salt"
+  },
+  {
+    slug: "homoeopathie",
+    icon: Sparkles,
+    title: "Homöopathie",
+    description: "Heilmethode nach dem Ähnlichkeitsprinzip zur Aktivierung der Selbstheilungskräfte.",
+    longDescription: `Samuel Hahnemann prägte den Ausdruck “Gleiches mit gleichem Heilen”.
+
+Homöopathie bildet heute einen eigenständige Therapieform in der Naturheilkunde. Die Einzelsubstanzen, wurden am gesunden Menschen geprüft und nach der Ähnlichkeitsregel in potenzierter Form verabreicht.`,
+    price: "Individuell nach Anamnese",
+    image: "https://placehold.co/800x600.png",
+    imageHint: "homeopathy medicine"
   }
 ];
