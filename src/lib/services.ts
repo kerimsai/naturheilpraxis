@@ -1,5 +1,5 @@
 
-import { Droplets, ShieldCheck, Microscope, Leaf, Ear, LucideProps } from 'lucide-react';
+import { Droplets, ShieldCheck, Microscope, Leaf, Ear, Filter, LucideProps } from 'lucide-react';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 
 export type Service = {
@@ -63,5 +63,15 @@ export const services: Service[] = [
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "acupuncture ear"
+  },
+  {
+    slug: "entgiftung-entsaeuerung",
+    icon: Filter,
+    title: "Entgiftung & Entsäuerung",
+    description: "Unterstützung des Körpers bei der Ausleitung von Schadstoffen und der Wiederherstellung des Säure-Basen-Gleichgewichts.",
+    longDescription: "Eine Entgiftungskur und Entsäuerung des Körpers kann bei vielen Beschwerden und Erkrankungen sinnvoll sein. Verschiedenste Ursachen können zu einer Übersäuerung des Körpers beitragen:\n\n- zuviel säurebildende Nahrung z.B.: zuviel Fett, Zucker, Weizenprodukte, Fleisch\n- zuckerhaltige Getränke (Säfte), Kaffee/schwarzer Tee, Alkohol\n- Bewegungsmangel\n- Rauchen\n- Medikamente\n- Stress, Sorgen, Ängste\n- …\n\nUnser Körper ist eigentlich in der Lage Stoffe, die im Körper nicht benötigt werden auszuscheiden. Dies geschieht über die Ausscheidungsorgane: Haut, Leber, Niere, Darm, Lymphe und Lunge.\n\nIst die Säurelast im Körper zu hoch, fallen zuviel Abfallprodukte an. Der Körper kann diese nicht schnell genug loswerden und lagert diese im Bindegewebe ab.\n\nDiese Ablagerungen können die Funktionen im Körper stören oder Zellen schädigen. Daher kann sich eine regelmäßige Entgiftung und Entsäuerung positiv auf die Regulationsfähigkeit des Körpers auswirken und zur Behandlung von Erkrankungen beitragen.",
+    price: "Individuell nach Anamnese",
+    image: "https://placehold.co/800x600.png",
+    imageHint: "detox healthy"
   }
 ];
