@@ -8,10 +8,10 @@ export function Hero() {
     <section className="container grid lg:grid-cols-2 gap-12 items-center py-20 md:py-32">
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl md:text-6xl font-bold font-headline text-balance">
-          Ihr Weg zu natürlicher Heilung und Wohlbefinden
+          Naturheilpraxis Julia Jordan
         </h1>
         <p className="text-lg text-muted-foreground max-w-xl">
-          Willkommen in der Praxis von Julia Jordan, wo wir einen ganzheitlichen Gesundheitsansatz verfolgen, der traditionelles naturheilkundliches Wissen mit moderner Wissenschaft verbindet.
+          Ihre Naturheilpraxis in Aachen für ganzheitliche Dermatologie und Ästhetik
         </p>
         <div className="flex flex-wrap gap-4 mt-4">
           <Button asChild size="lg">
