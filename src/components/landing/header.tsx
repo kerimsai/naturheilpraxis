@@ -5,10 +5,10 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 
 const navLinks = [
-  { href: "#services", label: "Leistungen" },
-  { href: "#testimonials", label: "Erfahrungsberichte" },
-  { href: "#wellness", label: "KI-Assistent" },
-  { href: "#booking", label: "Termin" },
+  { href: "/#services", label: "Leistungen" },
+  { href: "/#testimonials", label: "Erfahrungsberichte" },
+  { href: "/#wellness", label: "KI-Assistent" },
+  { href: "/#booking", label: "Termin" },
 ];
 
 export function Header() {
@@ -32,7 +32,7 @@ export function Header() {
              </Button>
           ))}
           <Button asChild>
-            <Link href="#contact">Kontakt</Link>
+            <Link href="/#contact">Kontakt</Link>
           </Button>
         </nav>
 
@@ -66,7 +66,7 @@ export function Header() {
                     </div>
                     <SheetClose asChild>
                         <Button asChild className="w-full">
-                            <Link href="#contact">Kontakt</Link>
+                            <Link href="/#contact">Kontakt</Link>
                         </Button>
                     </SheetClose>
                 </nav>
