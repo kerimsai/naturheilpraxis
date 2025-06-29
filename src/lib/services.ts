@@ -1,5 +1,5 @@
 
-import { Droplets, ShieldCheck, Microscope, Leaf, Ear, Filter, LucideProps } from 'lucide-react';
+import { Droplets, ShieldCheck, Microscope, Leaf, Ear, Filter, Activity, LucideProps } from 'lucide-react';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 
 export type Service = {
@@ -73,5 +73,15 @@ export const services: Service[] = [
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "detox healthy"
+  },
+  {
+    slug: "darmgesundheit",
+    icon: Activity,
+    title: "Darmgesundheit",
+    description: "Ganzheitliche Betrachtung des Darms zur Linderung von Beschwerden und zur Stärkung des Wohlbefindens.",
+    longDescription: "Der Darm hat eine enorme Bedeutung für die Gesundheit des Menschen.\n\nUmweltbelastungen, Nahrungsmittelzusätze, Stress und Medikamente beeinflussen die Darmschleimhaut negativ und können zu massiven Beschwerden führen.\n\nNeben Blähungen, Krämpfen, Durchfall, Verstopfung können auch depressive Verstimmungen, Müdigkeit und Hautprobleme auftreten.\n\nDaher braucht der Darm ganz besondere Aufmerksamkeit. Eine Stuhluntersuchung gibt Aufschluss über Ihre Darmschleimhaut und Ihre Stuhlzusammensetzung.\n\nDer Befund wird mit Ihnen besprochen und ist ein wichtiger Bestandteil des ganzheitlichen Therapiekonzeptes.",
+    price: "Individuell nach Anamnese",
+    image: "https://placehold.co/800x600.png",
+    imageHint: "healthy gut"
   }
 ];
