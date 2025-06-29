@@ -1,5 +1,5 @@
 
-import { Droplets, ShieldCheck, Microscope, Leaf, LucideProps } from 'lucide-react';
+import { Droplets, ShieldCheck, Microscope, Leaf, Ear, LucideProps } from 'lucide-react';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 
 export type Service = {
@@ -53,5 +53,15 @@ export const services: Service[] = [
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "herbs medicine"
+  },
+  {
+    slug: "ohrakupunktur",
+    icon: Ear,
+    title: "Ohrakupunktur",
+    description: "Diagnose und Therapie durch Stimulation von Reflexzonen am Ohr zur positiven Beeinflussung von Organen, Schmerzen und Psyche.",
+    longDescription: "Die französische Ohrakupunktur wurde von dem französichen Arzt Paul Nogier ins Leben gerufen und dient der Diagnosefindung und Therapie.\n\nDas Ohr repräsentiert die Reflexzonen des gesamten menschlichen Körpers. Jeder Punkt im Ohr ist einem bestimmten Organ zugeordnet.\n\nZur Diagnosefindung werden diese Punkte, z.B. über einen Hautwiderstandstest, auf Druckschmerz oder Schwäche geprüft.\n\nDurch das Setzen von kleinen Akupunkturnadeln in die betreffenden Reflexpunkte ist es möglcih auf Organe, Schmerzen und Psyche Einfluss zu nehmen und diese positiv zu beeinflussen.",
+    price: "Individuell nach Anamnese",
+    image: "https://placehold.co/800x600.png",
+    imageHint: "acupuncture ear"
   }
 ];
