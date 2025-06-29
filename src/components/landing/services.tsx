@@ -5,6 +5,17 @@ import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 
+const featuredServiceSlugs = [
+  "vitamin-c-infusion",
+  "aderlass-blutreinigung",
+  "mikrobiom-analyse",
+];
+
+const featuredServices = services.filter((service) =>
+  featuredServiceSlugs.includes(service.slug)
+);
+
+
 export function Services() {
   return (
     <section id="services" className="container py-12 md:py-24">
@@ -15,7 +26,7 @@ export function Services() {
         </p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {services.map((service) => {
+        {featuredServices.map((service) => {
           const Icon = service.icon;
           return (
             <Card key={service.slug} className="flex flex-col text-center p-8 h-full border-border/60 hover:shadow-xl transition-shadow duration-300">
