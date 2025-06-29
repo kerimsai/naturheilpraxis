@@ -1,7 +1,6 @@
 "use client";
 
-import { useFormState } from "react-dom";
-import { useEffect, useRef } from "react";
+import { useActionState, useEffect, useRef } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
@@ -17,7 +16,7 @@ const initialState = {
 };
 
 export function WellnessAssistant() {
-  const [state, formAction] = useFormState(getWellnessTips, initialState);
+  const [state, formAction] = useActionState(getWellnessTips, initialState);
   const { toast } = useToast();
   const formRef = useRef<HTMLFormElement>(null);
 
