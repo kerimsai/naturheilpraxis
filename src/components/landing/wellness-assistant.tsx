@@ -35,62 +35,64 @@ export function WellnessAssistant() {
 
   return (
     <section id="wellness" className="container py-12 md:py-24">
-      <div className="text-center mb-12">
+      <div className="mx-auto max-w-3xl text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold font-headline">KI-gestützter Wellness-Assistent</h2>
-        <p className="text-lg text-muted-foreground mt-2 max-w-3xl mx-auto">
+        <p className="text-lg text-muted-foreground mt-2">
           Erhalten Sie personalisierte Wellness-Tipps basierend auf Ihrem einzigartigen Lebensstil und Ihren Zielen. Unser KI-Assistent gibt Ihnen sofortige Vorschläge, um Sie auf Ihrem Gesundheitsweg zu unterstützen.
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-2 gap-12 items-start max-w-6xl mx-auto">
-        <Card>
-          <CardHeader>
-            <CardTitle className="font-headline flex items-center gap-2">
-              <Sparkles className="w-6 h-6 text-primary" />
-              Erstellen Sie Ihre Tipps
-            </CardTitle>
-            <CardDescription>
-              Füllen Sie das folgende Formular aus, und unsere KI wird individuelle Empfehlungen für Sie erstellen.
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <form ref={formRef} action={formAction} className="space-y-6">
-              <div className="space-y-2">
-                <Label htmlFor="lifestyle">Beschreiben Sie Ihren aktuellen Lebensstil</Label>
-                <Textarea
-                  id="lifestyle"
-                  name="lifestyle"
-                  placeholder="z.B. 'Ich habe einen Schreibtischjob, trainiere 2-3 Mal pro Woche und esse oft auswärts.'"
-                  rows={4}
-                  required
-                />
-                {state.errors?.lifestyle && (
-                  <p className="text-sm font-medium text-destructive">
-                    {state.errors.lifestyle[0]}
-                  </p>
-                )}
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="healthGoals">Was sind Ihre Gesundheitsziele?</Label>
-                <Textarea
-                  id="healthGoals"
-                  name="healthGoals"
-                  placeholder="z.B. 'Ich möchte mehr Energie haben, meinen Schlaf verbessern und Stress reduzieren.'"
-                  rows={4}
-                  required
-                />
-                {state.errors?.healthGoals && (
-                   <p className="text-sm font-medium text-destructive">
-                    {state.errors.healthGoals[0]}
-                  </p>
-                )}
-              </div>
-              <SubmitButton />
-            </form>
-          </CardContent>
-        </Card>
+      <div className="flex flex-col items-center gap-12">
+        <div className="w-full max-w-2xl">
+          <Card>
+            <CardHeader>
+              <CardTitle className="font-headline flex items-center gap-2">
+                <Sparkles className="w-6 h-6 text-primary" />
+                Erstellen Sie Ihre Tipps
+              </CardTitle>
+              <CardDescription>
+                Füllen Sie das folgende Formular aus, und unsere KI wird individuelle Empfehlungen für Sie erstellen.
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <form ref={formRef} action={formAction} className="space-y-6">
+                <div className="space-y-2">
+                  <Label htmlFor="lifestyle">Beschreiben Sie Ihren aktuellen Lebensstil</Label>
+                  <Textarea
+                    id="lifestyle"
+                    name="lifestyle"
+                    placeholder="z.B. 'Ich habe einen Schreibtischjob, trainiere 2-3 Mal pro Woche und esse oft auswärts.'"
+                    rows={4}
+                    required
+                  />
+                  {state.errors?.lifestyle && (
+                    <p className="text-sm font-medium text-destructive">
+                      {state.errors.lifestyle[0]}
+                    </p>
+                  )}
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="healthGoals">Was sind Ihre Gesundheitsziele?</Label>
+                  <Textarea
+                    id="healthGoals"
+                    name="healthGoals"
+                    placeholder="z.B. 'Ich möchte mehr Energie haben, meinen Schlaf verbessern und Stress reduzieren.'"
+                    rows={4}
+                    required
+                  />
+                  {state.errors?.healthGoals && (
+                     <p className="text-sm font-medium text-destructive">
+                      {state.errors.healthGoals[0]}
+                    </p>
+                  )}
+                </div>
+                <SubmitButton />
+              </form>
+            </CardContent>
+          </Card>
+        </div>
         
-        <div className="mt-8 lg:mt-0">
+        <div className="w-full max-w-2xl">
           {state.tips && (
              <Card className="bg-background shadow-lg animate-in fade-in-0 duration-500 h-full">
                 <CardHeader>
