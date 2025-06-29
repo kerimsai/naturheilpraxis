@@ -1,5 +1,5 @@
 
-import { Droplets, ShieldCheck, Microscope, Leaf, Ear, Filter, Activity, LucideProps } from 'lucide-react';
+import { Droplets, ShieldCheck, Microscope, Leaf, Ear, Filter, Activity, Spline, LucideProps } from 'lucide-react';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 
 export type Service = {
@@ -59,7 +59,13 @@ export const services: Service[] = [
     icon: Ear,
     title: "Ohrakupunktur",
     description: "Diagnose und Therapie durch Stimulation von Reflexzonen am Ohr zur positiven Beeinflussung von Organen, Schmerzen und Psyche.",
-    longDescription: "Die französische Ohrakupunktur wurde von dem französichen Arzt Paul Nogier ins Leben gerufen und dient der Diagnosefindung und Therapie.\n\nDas Ohr repräsentiert die Reflexzonen des gesamten menschlichen Körpers. Jeder Punkt im Ohr ist einem bestimmten Organ zugeordnet.\n\nZur Diagnosefindung werden diese Punkte, z.B. über einen Hautwiderstandstest, auf Druckschmerz oder Schwäche geprüft.\n\nDurch das Setzen von kleinen Akupunkturnadeln in die betreffenden Reflexpunkte ist es möglcih auf Organe, Schmerzen und Psyche Einfluss zu nehmen und diese positiv zu beeinflussen.",
+    longDescription: `Die französische Ohrakupunktur wurde von dem französichen Arzt Paul Nogier ins Leben gerufen und dient der Diagnosefindung und Therapie.
+
+Das Ohr repräsentiert die Reflexzonen des gesamten menschlichen Körpers. Jeder Punkt im Ohr ist einem bestimmten Organ zugeordnet.
+
+Zur Diagnosefindung werden diese Punkte, z.B. über einen Hautwiderstandstest, auf Druckschmerz oder Schwäche geprüft.
+
+Durch das Setzen von kleinen Akupunkturnadeln in die betreffenden Reflexpunkte ist es möglcih auf Organe, Schmerzen und Psyche Einfluss zu nehmen und diese positiv zu beeinflussen.`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "acupuncture ear"
@@ -69,7 +75,21 @@ export const services: Service[] = [
     icon: Filter,
     title: "Entgiftung & Entsäuerung",
     description: "Unterstützung des Körpers bei der Ausleitung von Schadstoffen und der Wiederherstellung des Säure-Basen-Gleichgewichts.",
-    longDescription: "Eine Entgiftungskur und Entsäuerung des Körpers kann bei vielen Beschwerden und Erkrankungen sinnvoll sein. Verschiedenste Ursachen können zu einer Übersäuerung des Körpers beitragen:\n\n- zuviel säurebildende Nahrung z.B.: zuviel Fett, Zucker, Weizenprodukte, Fleisch\n- zuckerhaltige Getränke (Säfte), Kaffee/schwarzer Tee, Alkohol\n- Bewegungsmangel\n- Rauchen\n- Medikamente\n- Stress, Sorgen, Ängste\n- …\n\nUnser Körper ist eigentlich in der Lage Stoffe, die im Körper nicht benötigt werden auszuscheiden. Dies geschieht über die Ausscheidungsorgane: Haut, Leber, Niere, Darm, Lymphe und Lunge.\n\nIst die Säurelast im Körper zu hoch, fallen zuviel Abfallprodukte an. Der Körper kann diese nicht schnell genug loswerden und lagert diese im Bindegewebe ab.\n\nDiese Ablagerungen können die Funktionen im Körper stören oder Zellen schädigen. Daher kann sich eine regelmäßige Entgiftung und Entsäuerung positiv auf die Regulationsfähigkeit des Körpers auswirken und zur Behandlung von Erkrankungen beitragen.",
+    longDescription: `Eine Entgiftungskur und Entsäuerung des Körpers kann bei vielen Beschwerden und Erkrankungen sinnvoll sein. Verschiedenste Ursachen können zu einer Übersäuerung des Körpers beitragen:
+
+- zuviel säurebildende Nahrung z.B.: zuviel Fett, Zucker, Weizenprodukte, Fleisch
+- zuckerhaltige Getränke (Säfte), Kaffee/schwarzer Tee, Alkohol
+- Bewegungsmangel
+- Rauchen
+- Medikamente
+- Stress, Sorgen, Ängste
+- …
+
+Unser Körper ist eigentlich in der Lage Stoffe, die im Körper nicht benötigt werden auszuscheiden. Dies geschieht über die Ausscheidungsorgane: Haut, Leber, Niere, Darm, Lymphe und Lunge.
+
+Ist die Säurelast im Körper zu hoch, fallen zuviel Abfallprodukte an. Der Körper kann diese nicht schnell genug loswerden und lagert diese im Bindegewebe ab.
+
+Diese Ablagerungen können die Funktionen im Körper stören oder Zellen schädigen. Daher kann sich eine regelmäßige Entgiftung und Entsäuerung positiv auf die Regulationsfähigkeit des Körpers auswirken und zur Behandlung von Erkrankungen beitragen.`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "detox healthy"
@@ -79,9 +99,42 @@ export const services: Service[] = [
     icon: Activity,
     title: "Darmgesundheit",
     description: "Ganzheitliche Betrachtung des Darms zur Linderung von Beschwerden und zur Stärkung des Wohlbefindens.",
-    longDescription: "Der Darm hat eine enorme Bedeutung für die Gesundheit des Menschen.\n\nUmweltbelastungen, Nahrungsmittelzusätze, Stress und Medikamente beeinflussen die Darmschleimhaut negativ und können zu massiven Beschwerden führen.\n\nNeben Blähungen, Krämpfen, Durchfall, Verstopfung können auch depressive Verstimmungen, Müdigkeit und Hautprobleme auftreten.\n\nDaher braucht der Darm ganz besondere Aufmerksamkeit. Eine Stuhluntersuchung gibt Aufschluss über Ihre Darmschleimhaut und Ihre Stuhlzusammensetzung.\n\nDer Befund wird mit Ihnen besprochen und ist ein wichtiger Bestandteil des ganzheitlichen Therapiekonzeptes.",
+    longDescription: `Der Darm hat eine enorme Bedeutung für die Gesundheit des Menschen.
+
+Umweltbelastungen, Nahrungsmittelzusätze, Stress und Medikamente beeinflussen die Darmschleimhaut negativ und können zu massiven Beschwerden führen.
+
+Neben Blähungen, Krämpfen, Durchfall, Verstopfung können auch depressive Verstimmungen, Müdigkeit und Hautprobleme auftreten.
+
+Daher braucht der Darm ganz besondere Aufmerksamkeit. Eine Stuhluntersuchung gibt Aufschluss über Ihre Darmschleimhaut und Ihre Stuhlzusammensetzung.
+
+Der Befund wird mit Ihnen besprochen und ist ein wichtiger Bestandteil des ganzheitlichen Therapiekonzeptes.`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "healthy gut"
+  },
+  {
+    slug: "manuelle-neuro-therapie",
+    icon: Spline,
+    title: "MNT (Manuelle-Neuro-Therapie)",
+    description: "Kombinierte Behandlung aus Massage, Reflextherapie und Mobilisation bei diversen Beschwerden.",
+    longDescription: `Die Manuelle-Neuro-Therapie nach Walter Froneberg kombiniert drei Einzeltechniken:
+
+1.  Die Behandlung beginnt mit einer spezifischen Muskel- und Nervenmassage.
+2.  Darauf folgt eine Nervenreflextherapie am Fuß, um direkt über das Nervensystem den Körper in allen Ebenen zu erfassen.
+3.  Anschließend erfolgt eine modifizierte Gelenkmobilisation.
+
+Durch diese aufeinander abgestimmten Techniken ist ein schneller Zugriff auf Muskel, Bänder, Gelenke, Nerven und Organe möglich. Die Manuelle Neurotherapie erfasst vielfältige Beschwerden und ermöglicht eine ganzheitliche Betrachtung des Menschen.
+
+Anwendungsbeispiele:
+- Hexenschuss
+- Ischialgie
+- Kopfschmerzen
+- Magen-Darmprobleme
+- Verstopfung (auch nach Schwangerschaft)
+- Rückenschmerzen
+- uvm.`,
+    price: "Individuell nach Anamnese",
+    image: "https://placehold.co/800x600.png",
+    imageHint: "manual therapy"
   }
 ];

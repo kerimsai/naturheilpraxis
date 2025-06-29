@@ -35,7 +35,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
               <h1 className="text-4xl md:text-5xl font-bold font-headline text-balance">
                 {title}
               </h1>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-lg text-muted-foreground whitespace-pre-line">
                 {longDescription}
               </p>
               
