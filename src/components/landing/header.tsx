@@ -7,7 +7,6 @@ import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/s
 const navLinks = [
   { href: "/services", label: "Leistungen" },
   { href: "/#testimonials", label: "Erfahrungsberichte" },
-  { href: "/#wellness", label: "KI-Assistent" },
   { href: "/#booking", label: "Termin" },
 ];
 

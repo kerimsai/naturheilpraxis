@@ -2,7 +2,6 @@ import { Header } from "@/components/landing/header";
 import { Hero } from "@/components/landing/hero";
 import { Services } from "@/components/landing/services";
 import { Testimonials } from "@/components/landing/testimonials";
-import { WellnessAssistant } from "@/components/landing/wellness-assistant";
 import { Booking } from "@/components/landing/booking";
 import { Footer } from "@/components/landing/footer";
 import { Separator } from "@/components/ui/separator";
@@ -21,10 +20,7 @@ export default function Home() {
         <div className="animate-in fade-in-0 duration-1000 delay-500">
           <Testimonials />
         </div>
-        <div className="bg-muted/50 animate-in fade-in-0 duration-1000 delay-700">
-          <WellnessAssistant />
-        </div>
-        <div className="animate-in fade-in-0 duration-1000 delay-900">
+        <div className="animate-in fade-in-0 duration-1000 delay-700">
           <Booking />
         </div>
         <Separator />
