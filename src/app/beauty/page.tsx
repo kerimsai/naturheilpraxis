@@ -34,11 +34,10 @@ export default function BeautyPage() {
             </div>
             <div className="relative h-[500px] lg:h-[600px] w-full rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="https://placehold.co/800x1200.png"
+                src="https://images.unsplash.com/photo-1564640227760-db286729bf83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibHVlJTIwZmxvd2VyfGVufDB8fHx8MTc1MTM3MzE0NXww&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="Blaue Rose mit Wassertropfen"
                 fill
                 className="object-cover"
-                data-ai-hint="blue rose"
               />
             </div>
           </div>
