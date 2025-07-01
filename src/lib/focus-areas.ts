@@ -1,5 +1,5 @@
 
-import { XCircle, ShieldAlert, Waves, Layers, DiscAlbum, Virus, LucideProps } from 'lucide-react';
+import { XCircle, ShieldAlert, Waves, Layers, DiscAlbum, Shield, LucideProps } from 'lucide-react';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 
 export type FocusArea = {
@@ -48,7 +48,7 @@ export const focusAreas: FocusArea[] = [
     },
     {
         slug: "warzen",
-        icon: Virus,
+        icon: Shield,
         title: "Warzen",
         shortDescription: "Stärkung der körpereigenen Abwehr zur Bekämpfung von Warzenviren mit natürlichen Mitteln.",
         longDescription: "Warzen werden durch Viren verursacht und sind ein Zeichen für ein geschwächtes lokales Immunsystem. Anstatt nur die Warze selbst zu entfernen, zielt unser Ansatz darauf ab, die körpereigene Abwehr zu stärken. Wir nutzen pflanzliche Tinkturen und homöopathische Mittel, um den Körper bei der Bekämpfung des Virus zu unterstützen."
