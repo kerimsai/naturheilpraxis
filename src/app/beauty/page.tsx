@@ -11,7 +11,7 @@ export default function BeautyPage() {
       <Header />
       <main className="flex-1">
         <section className="container py-12 md:py-24">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
             <div className="flex flex-col gap-6 text-muted-foreground md:text-lg">
                 <h2 className="text-xl font-semibold tracking-widest text-primary uppercase">The Beauty Room</h2>
                 <h1 className="text-4xl md:text-5xl font-bold font-headline text-foreground mb-4 text-balance">
@@ -32,12 +32,13 @@ export default function BeautyPage() {
                     </Button>
                 </div>
             </div>
-            <div className="relative h-[500px] lg:h-[600px] w-full rounded-2xl overflow-hidden shadow-xl">
+            <div className="w-full">
               <Image
                 src="https://images.unsplash.com/photo-1564640227760-db286729bf83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibHVlJTIwZmxvd2VyfGVufDB8fHx8MTc1MTM3MzE0NXww&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="Blaue Rose mit Wassertropfen"
-                fill
-                className="object-cover"
+                width={1080}
+                height={1620}
+                className="rounded-2xl shadow-xl w-full h-auto"
               />
             </div>
           </div>
