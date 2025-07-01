@@ -1,5 +1,5 @@
 
-import { Droplets, ShieldCheck, Microscope, Leaf, Ear, Filter, Activity, Spline, Gem, Sparkles, LucideProps } from 'lucide-react';
+import { Droplets, ShieldCheck, Microscope, Leaf, Ear, Filter, Spline, Gem, Sparkles, LucideProps, FlaskConical } from 'lucide-react';
 import { ForwardRefExoticComponent, RefAttributes } from 'react';
 
 export type Service = {
@@ -95,22 +95,14 @@ Diese Ablagerungen können die Funktionen im Körper stören oder Zellen schädi
     imageHint: "detox healthy"
   },
   {
-    slug: "darmgesundheit",
-    icon: Activity,
-    title: "Darmgesundheit",
-    description: "Ganzheitliche Betrachtung des Darms zur Linderung von Beschwerden und zur Stärkung des Wohlbefindens.",
-    longDescription: `Der Darm hat eine enorme Bedeutung für die Gesundheit des Menschen.
-
-Umweltbelastungen, Nahrungsmittelzusätze, Stress und Medikamente beeinflussen die Darmschleimhaut negativ und können zu massiven Beschwerden führen.
-
-Neben Blähungen, Krämpfen, Durchfall, Verstopfung können auch depressive Verstimmungen, Müdigkeit und Hautprobleme auftreten.
-
-Daher braucht der Darm ganz besondere Aufmerksamkeit. Eine Stuhluntersuchung gibt Aufschluss über Ihre Darmschleimhaut und Ihre Stuhlzusammensetzung.
-
-Der Befund wird mit Ihnen besprochen und ist ein wichtiger Bestandteil des ganzheitlichen Therapiekonzeptes.`,
+    slug: "milchsaeureinfusion",
+    icon: FlaskConical,
+    title: "Milchsäureinfusion",
+    description: "Infusion mit rechtsdrehender Milchsäure zur Unterstützung des Stoffwechsels und der Regeneration.",
+    longDescription: `Rechtsdrehende Milchsäure ist eine natürliche Substanz im Körper, die eine wichtige Rolle im Energiestoffwechsel spielt. Eine Milchsäureinfusion kann helfen, den Säure-Basen-Haushalt zu regulieren, die Zellatmung zu verbessern und die körperliche Regeneration zu fördern. Diese Behandlung ist besonders empfehlenswert bei Erschöpfungszuständen, zur Unterstützung nach sportlicher Betätigung oder als begleitende Maßnahme bei chronischen Erkrankungen, um die Vitalität zu steigern.`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
-    imageHint: "healthy gut"
+    imageHint: "infusion therapy"
   },
   {
     slug: "manuelle-neuro-therapie",
