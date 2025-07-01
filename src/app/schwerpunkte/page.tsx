@@ -1,66 +1,50 @@
 
 import { Header } from '@/components/landing/header';
 import { Footer } from '@/components/landing/footer';
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
-import { Button } from '@/components/ui/button';
+import { focusAreas } from '@/lib/focus-areas';
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from "@/components/ui/card";
 import Link from 'next/link';
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
-const focusAreas = [
-    {
-        title: "Akne",
-        content: "Akne wird oft durch hormonelle Schwankungen, Ernährung und Stress beeinflusst. Wir verfolgen einen ganzheitlichen Ansatz, der die Ursachen erforscht und durch natürliche Heilmethoden wie Kräutertherapie, Ernährungsberatung und Mikronährstofftherapie die Hautgesundheit von innen heraus verbessert."
-    },
-    {
-        title: "Allergien und Autoimmunerkrankungen",
-        content: "Bei Allergien und Autoimmunerkrankungen ist das Immunsystem fehlgeleitet. Unser Ziel ist es, das Immunsystem zu modulieren und zu beruhigen. Durch Darmsanierung, Ausleitungsverfahren und gezielte Nährstofftherapie unterstützen wir den Körper dabei, wieder ins Gleichgewicht zu finden und Überreaktionen zu reduzieren."
-    },
-    {
-        title: "Juckreiz",
-        content: "Juckreiz (Pruritus) kann viele Ursachen haben, von trockener Haut bis hin zu inneren Erkrankungen. Wir suchen nach der Wurzel des Problems und behandeln es mit einer Kombination aus topischen natürlichen Mitteln, pflanzlichen Heilmitteln und Anpassungen des Lebensstils, um die Haut zu beruhigen und den Juckreiz nachhaltig zu lindern."
-    },
-    {
-        title: "Neurodermitis (atopisches Ekzem)",
-        content: "Neurodermitis ist eine chronisch-entzündliche Hauterkrankung, die eng mit dem Darm und dem Immunsystem verbunden ist. Unser Behandlungsansatz umfasst eine detaillierte Mikrobiom-Analyse, eine entzündungshemmende Ernährungsstrategie und den Einsatz von Pflanzenheilkunde, um die Hautbarriere zu stärken und Schübe zu minimieren."
-    },
-    {
-        title: "Schuppenflechte (Psoriasis)",
-        content: "Psoriasis ist eine Autoimmunerkrankung, die sich auf der Haut manifestiert. Wir konzentrieren uns auf die Beruhigung des Immunsystems und die Reduzierung von Entzündungen im Körper. Entgiftungsverfahren, spezielle Diäten und naturheilkundliche Mittel sind zentrale Bestandteile unserer Therapie, um die Symptome zu kontrollieren und das Hautbild zu verbessern."
-    },
-    {
-        title: "Warzen",
-        content: "Warzen werden durch Viren verursacht und sind ein Zeichen für ein geschwächtes lokales Immunsystem. Anstatt nur die Warze selbst zu entfernen, zielt unser Ansatz darauf ab, die körpereigene Abwehr zu stärken. Wir nutzen pflanzliche Tinkturen und homöopathische Mittel, um den Körper bei der Bekämpfung des Virus zu unterstützen."
-    }
-];
-
-export default function SchwerpunktePage() {
+export default function AllFocusAreasPage() {
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <Header />
       <main className="flex-1">
-        <section id="focus-areas" className="container py-12 md:py-24">
-          <div className="text-center mb-12 max-w-4xl mx-auto">
+        <section id="focus-areas-list" className="container py-12 md:py-24">
+          <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold font-headline">Schwerpunkte meiner Praxis</h1>
-            <p className="text-lg text-muted-foreground mt-4">
-                Mein Fokus liegt auf der ganzheitlichen Behandlung von Hauterkrankungen. Hier finden Sie einen Überblick über die Beschwerden, bei denen ich Sie mit naturheilkundlichen Methoden unterstützen kann.
+            <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
+              Mein Fokus liegt auf der ganzheitlichen Behandlung von Hauterkrankungen. Hier finden Sie einen Überblick über die Beschwerden, bei denen ich Sie mit naturheilkundlichen Methoden unterstützen kann.
             </p>
           </div>
-          
-          <div className="max-w-4xl mx-auto">
-            <Accordion type="single" collapsible className="w-full">
-                {focusAreas.map((area, index) => (
-                    <AccordionItem value={`item-${index}`} key={index}>
-                        <AccordionTrigger className="text-xl font-headline text-left">{area.title}</AccordionTrigger>
-                        <AccordionContent className="text-lg text-muted-foreground">
-                            {area.content}
-                        </AccordionContent>
-                    </AccordionItem>
-                ))}
-            </Accordion>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {focusAreas.map((area) => {
+              const Icon = area.icon;
+              return (
+                <Card key={area.slug} className="flex flex-col text-center p-8 h-full border-border/60 hover:shadow-xl transition-shadow duration-300">
+                  <div className="flex-grow flex flex-col items-center">
+                    <div className="p-4 bg-accent rounded-full inline-block mb-6">
+                      <Icon className="w-10 h-10 text-primary" />
+                    </div>
+                    <CardHeader className="p-0 items-center">
+                      <CardTitle className="font-headline text-2xl mb-4">{area.title}</CardTitle>
+                    </CardHeader>
+                    <CardContent className="p-0 flex-grow">
+                      <p className="text-muted-foreground">{area.shortDescription}</p>
+                    </CardContent>
+                  </div>
+                  <CardFooter className="p-0 mt-8 justify-center">
+                    <Button asChild variant="outline" className="w-full">
+                      <Link href={`/schwerpunkte/${area.slug}`}>
+                        Details anzeigen <ArrowRight className="ml-2" />
+                      </Link>
+                    </Button>
+                  </CardFooter>
+                </Card>
+              );
+            })}
           </div>
 
           <div className="mt-16 text-center">
@@ -68,6 +52,7 @@ export default function SchwerpunktePage() {
                 <Link href="/#booking">Jetzt Termin vereinbaren</Link>
             </Button>
           </div>
+
         </section>
       </main>
       <Footer />
