@@ -133,7 +133,7 @@ Anwendungsbeispiele:
     slug: "schuessler-salze",
     icon: Gem,
     title: "Schüssler Salze",
-    description: "Biochemische Heilweise zur Erneuerung und Aktivierung von Zellinformationen durch Mineralsalze.",
+    description: "Biochemische Anwendung nach Dr. Schüßler zur Unterstützung körpereigener Prozesse mit ausgewählten Mineralsalzen",
     longDescription: `Dr. Schüßler war der Begründer der “Biochemischen Heilweise”. Er hat bei seinen Untersuchungen festgestellt, dass man durch bestimmte Salze, Informationen in den Zellen erneuern und aktivieren kann. Diesen Impuls in der Zelle unterstützte er durch die von ihm entwickelten Mineral-Salze.`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
