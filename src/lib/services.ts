@@ -143,7 +143,7 @@ Anwendungsbeispiele:
     slug: "homoeopathie",
     icon: Sparkles,
     title: "Homöopathie",
-    description: "Heilmethode nach dem Ähnlichkeitsprinzip zur Aktivierung der Selbstheilungskräfte.",
+    description: "Naturheilkundliche Methode nach dem Ähnlichkeitsprinzip – zur sanften Unterstützung der körpereigenen Regulation.",
     longDescription: `Samuel Hahnemann prägte den Ausdruck “Gleiches mit gleichem Heilen”.
 
 Homöopathie bildet heute einen eigenständige Therapieform in der Naturheilkunde. Die Einzelsubstanzen, wurden am gesunden Menschen geprüft und nach der Ähnlichkeitsregel in potenzierter Form verabreicht.`,
