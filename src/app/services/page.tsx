@@ -19,6 +19,12 @@ export default function AllServicesPage() {
               Entdecken Sie mein umfassendes Angebot an naturheilkundlichen Behandlungen, die darauf ausgelegt sind, Ihre Gesundheit zu fördern und Ihr Wohlbefinden zu steigern.
             </p>
           </div>
+
+          <div className="max-w-4xl mx-auto mb-12 p-4 bg-secondary/50 border-l-4 border-primary rounded-r-lg text-sm text-muted-foreground">
+            <h4 className="font-bold font-headline text-foreground mb-2">Rechtlicher Hinweis</h4>
+            <p>Aus rechtlichen Gründen weise ich besonders darauf hin, das bei keiner der aufgeführten Therapien der Eindruck erweckt wird, das hier ein Heilungsversprechen meinerseits zugrunde liegt, bzw. Linderung oder Verbesserung einer Erkrankung garantiert oder versprochen wird.</p>
+          </div>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service) => {
               const Icon = service.icon;
