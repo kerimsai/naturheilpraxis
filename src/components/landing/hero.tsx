@@ -30,7 +30,7 @@ export function Hero() {
           className="object-cover"
           data-ai-hint="serene nature"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent to-80%"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent to-50%"></div>
       </div>
     </section>
   );
