@@ -37,9 +37,81 @@ export const focusAreas: FocusArea[] = [
     {
         slug: "allergien-autoimmunerkrankungen",
         icon: ShieldAlert,
-        title: "Allergien & Autoimmunerkrankungen",
-        shortDescription: "Naturheilkundliche Begleitung bei Allergien und Autoimmunerkrankungen mit dem Ziel, das Immunsystem zu modulieren.",
-        longDescription: "<p>Bei Allergien und Autoimmunerkrankungen kann das Immunsystem fehlgeleitet sein. Mein Ziel ist es, das Immunsystem zu modulieren und zu beruhigen. Durch Darmsanierung, Ausleitungsverfahren und gezielte Nährstofftherapie kann der Körper dabei unterstützt werden, wieder ins Gleichgewicht zu finden und Überreaktionen zu reduzieren.</p>"
+        title: "Allergien & Autoimmunreaktionen",
+        shortDescription: "Individuelle naturheilkundliche Unterstützung für Ihr Immunsystem",
+        longDescription: `
+<p>Immer mehr Menschen sind von Allergien oder autoimmunen Beschwerden betroffen. In meiner Praxis biete ich naturheilkundliche Verfahren an, die den Körper dabei unterstützen können, besser mit diesen Herausforderungen umzugehen und das Gleichgewicht des Immunsystems zu fördern.</p>
+
+<h3 class="font-bold text-2xl pt-4 font-headline">Was ist eine Allergie?</h3>
+<p>Bei einer Allergie reagiert das Immunsystem überempfindlich auf eigentlich harmlose Stoffe wie Pollen, Hausstaubmilben, Tierhaare, bestimmte Nahrungsmittel oder Medikamente. Diese sogenannten Allergene werden fälschlich als Bedrohung eingestuft, was zu einer Vielzahl von Reaktionen führen kann – zum Beispiel:</p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Juckreiz</li>
+    <li>Schwellungen</li>
+    <li>Hautausschläge</li>
+    <li>Niesen, laufende Nase</li>
+    <li>Atembeschwerden</li>
+    <li>In seltenen Fällen auch starke allergische Reaktionen (z.B. anaphylaktische Reaktionen)</li>
+</ul>
+
+<h3 class="font-bold text-2xl pt-4 font-headline">Was passiert bei Autoimmunprozessen?</h3>
+<p>Bei sogenannten Autoimmunreaktionen richtet sich das Immunsystem nicht gegen äußere Eindringlinge, sondern irrtümlich gegen körpereigene Strukturen. Dabei kann es zu chronischen Entzündungsprozessen kommen. Die Ursachen gelten als vielschichtig und sind noch nicht vollständig erforscht.</p>
+
+<h3 class="font-bold text-2xl pt-4 font-headline">Begleitende Behandlungsmöglichkeiten in meiner Praxis</h3>
+<p>Neben allgemeinen Empfehlungen (z.B. Vermeidung bekannter Auslöser, Ernährung, Darmgesundheit) biete ich in meiner Praxis auch eine naturheilkundlich orientierte Methode an, die auf eine sanfte Regulation des Immunsystems abzielt:</p>
+
+<h4 class="font-bold text-xl pt-2 font-headline">Allergostop® – eine individuell abgestimmte Eigenblutbehandlung</h4>
+<p>Die Methode basiert auf einem von Prof. Dr. E. Theurer (VitOrgan) entwickelten Verfahren, bei dem aus dem eigenen Blut ein homöopathisch aufbereitetes Serum hergestellt wird. Diese Form der Behandlung soll den Körper dabei unterstützen, mit übersteigerten Reaktionen des Immunsystems besser umzugehen.</p>
+
+<h5 class="font-semibold text-lg pt-2 font-headline">Ablauf:</h5>
+<ol class="list-decimal list-inside space-y-2 mt-2">
+    <li><strong>Blutabnahme:</strong> Ideal in der Hochphase der allergischen Beschwerden</li>
+    <li><strong>Aufbereitung:</strong> Das Serum wird individuell und homöopathisch aufbereitet</li>
+    <li><strong>Injektionsserie:</strong> In der Regel 7 Injektionen über einen Zeitraum von ca. 2–3 Wochen</li>
+</ol>
+
+<h3 class="font-bold text-2xl pt-4 font-headline">Mögliche Einsatzbereiche</h3>
+<p>Die Allergostop®-Behandlung kann in meiner Praxis begleitend eingesetzt werden bei:</p>
+<p class="pt-2"><strong>Allergischen Reaktionen wie:</strong></p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Pollenallergie (z.B. Heuschnupfen)</li>
+    <li>Hausstaubmilben- oder Tierhaarallergie</li>
+    <li>allergisch bedingtem Asthma</li>
+</ul>
+<p class="pt-2"><strong>Autoimmunprozessen (begleitend zur ärztlichen Therapie), z.B.:</strong></p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Hashimoto-Thyreoiditis</li>
+    <li>Rheumatoider Arthritis</li>
+    <li>Lupus erythematodes</li>
+    <li>Morbus Crohn, Colitis ulcerosa</li>
+    <li>Sjögren-Syndrom</li>
+    <li>Raynaud-Symptomatik u. a.</li>
+</ul>
+
+<h3 class="font-bold text-2xl pt-4 font-headline">Vorteile dieser Methode</h3>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Allergene müssen nicht vorher bestimmt werden</li>
+    <li>Eine Austestung ist nicht notwendig</li>
+    <li>Auch bei mehreren Unverträglichkeiten möglich</li>
+    <li>Ein Behandlungsbeginn ist meist auch während akuter Beschwerden möglich</li>
+    <li>Gute Verträglichkeit laut Erfahrungsberichten</li>
+</ul>
+
+<h3 class="font-bold text-2xl pt-4 font-headline">Ergänzende Maßnahmen</h3>
+<p>In vielen Fällen ist es sinnvoll, die Behandlung mit weiteren Maßnahmen zu kombinieren, z.B.:</p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Vitamin-C-Infusionen zur Unterstützung des Immunsystems</li>
+    <li>Darmsanierung zur Stabilisierung der Schleimhäute</li>
+    <li>Ernährungsberatung bei Verdacht auf Unverträglichkeiten</li>
+</ul>
+<p>Ich begleite Sie gern individuell und ganzheitlich – in einem persönlichen Gespräch klären wir gemeinsam, welche Maßnahmen in Ihrem Fall sinnvoll sein können.</p>
+
+<div class="mt-6 p-4 border-l-4 border-primary bg-secondary/50 rounded-r-lg text-sm">
+<h4 class="font-bold text-lg font-headline">Rechtlicher Hinweis</h4>
+<p class="mt-2">Die hier vorgestellte Behandlungsmethode gehört zur Erfahrungsheilkunde und basiert auf den Erkenntnissen der Komplementärmedizin. Die Wirksamkeit von Allergostop® ist wissenschaftlich nicht abschließend belegt. Sie ersetzt keine schulmedizinisch notwendige Diagnostik oder Therapie. Bitte wenden Sie sich bei schweren oder akuten Beschwerden an Ihre behandelnde Ärztin oder Ihren Arzt.</p>
+<h4 class="font-bold text-lg font-headline mt-4">Information zum Transfusionsgesetz (TFG):</h4>
+<p class="mt-2">Laut § 28 TFG fällt das Verfahren der Allergostop®- Behandlung unter die Ausnahmeregelungen vom Transfusionsgesetz. Weitere Informationen finden Sie auf der Website des Herstellers: <a href="https://www.vitorgan.de/allergostop" target="_blank" rel="noopener noreferrer" class="underline hover:text-primary">www.vitorgan.de/allergostop</a></p>
+</div>
+`
     },
     {
         slug: "juckreiz",
