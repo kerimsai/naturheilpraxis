@@ -16,7 +16,23 @@ export const focusAreas: FocusArea[] = [
         icon: XCircle,
         title: "Akne",
         shortDescription: "Ganzheitliche Begleitung bei Akne durch Erforschung von Ursachen und Anwendung natürlicher Methoden.",
-        longDescription: "Akne kann durch hormonelle Schwankungen, Ernährung und Stress beeinflusst werden. Ich verfolge einen ganzheitlichen Ansatz, der mögliche Ursachen erforscht. Mit natürlichen Methoden wie Kräutertherapie, Ernährungsberatung und Mikronährstofftherapie kann die Hautgesundheit von innen heraus unterstützt werden."
+        longDescription: `Akne – wenn die Haut aus dem Gleichgewicht gerät
+
+Hat Ihr Neugeborenes kleine Pickelchen im Gesicht? Hat Ihre Tochter oder Ihr Sohn mit Mitessern und entzündlicher Haut im Gesicht, am Rücken oder im Brustbereich zu kämpfen? Oder leiden Sie selbst unter unreiner Haut oder Reibeisenhaut an den Oberarmen? Dann könnte es sich um eine Form der Akne handeln.
+
+Was ist Akne?
+Akne ist eine nicht ansteckende Hautveränderung, die auf einer Überaktivität der Talgdrüsen und einer Verhornungsstörung beruht. Sie kann in jedem Lebensalter auftreten – von der Neugeborenenakne bis zur sogenannten Spätakne im Erwachsenenalter. Häufig betroffen sind Gesicht, Rücken, Brust, Dekolleté sowie Oberarme und Oberschenkel. Je nach Ausprägung zeigt sich Akne in Form von Mitessern (Komedonen), entzündlichen Papeln und Pusteln oder tieferliegenden Knoten. Während Akne in der Pubertät meist hormonell bedingt ist (Akne vulgaris), kann sich im Erwachsenenalter eine sogenannte Spätakne (Akne tarda) entwickeln – deren Ursachen sind vielfältig und individuell verschieden.
+
+Mögliche Einflussfaktoren
+Die Entstehung von Akne kann durch eine Vielzahl von Faktoren begünstigt werden, darunter:
+- hormonelle Veränderungen (z.B. Pubertät, Schwangerschaft, Hormonumstellungen)
+- genetische Veranlagung
+- bestimmte Medikamente
+- unausgewogene Ernährung, Stress, Alkohol oder Rauchen
+- ungeeignete Hautpflege oder mechanische Reize (z.B. Quetschen von Pickeln)
+
+Wie ich Sie in meiner Praxis unterstütze
+Akne ist eine sehr individuelle Hauterkrankung. Deshalb biete ich keine Standardlösung, sondern eine ganzheitliche, auf Sie oder Ihr Kind abgestimmte Unterstützung an. Ziel ist es, die Haut wieder ins Gleichgewicht zu bringen und das persönliche Wohlbefinden zu stärken. Ich nehme mir Zeit für eine ausführliche Anamnese, eine differenzierte Hautanalyse und kombiniere bei Bedarf naturheilkundliche und kosmetisch-medizinische Ansätze. Mit meinem Wissen und meiner Erfahrung – auch aus der medizinischen Kosmetik – begleite ich Sie gerne auf Ihrem Weg zu einer sichtbar ausgeglicheneren Haut.`
     },
     {
         slug: "allergien-autoimmunerkrankungen",
