@@ -17,13 +17,13 @@ export const focusAreas: FocusArea[] = [
         title: "Akne",
         shortDescription: "Ganzheitliche Begleitung bei Akne durch Erforschung von Ursachen und Anwendung natürlicher Methoden.",
         longDescription: `
-<p>Akne – wenn die Haut aus dem Gleichgewicht gerät</p>
+<p><strong>Akne – wenn die Haut aus dem Gleichgewicht gerät</strong></p>
 <p>Hat Ihr Neugeborenes kleine Pickelchen im Gesicht? Hat Ihre Tochter oder Ihr Sohn mit Mitessern und entzündlicher Haut im Gesicht, am Rücken oder im Brustbereich zu kämpfen? Oder leiden Sie selbst unter unreiner Haut oder Reibeisenhaut an den Oberarmen? Dann könnte es sich um eine Form der Akne handeln.</p>
 <h3 class="font-bold text-2xl pt-4 font-headline">Was ist Akne?</h3>
 <p>Akne ist eine nicht ansteckende Hautveränderung, die auf einer Überaktivität der Talgdrüsen und einer Verhornungsstörung beruht. Sie kann in jedem Lebensalter auftreten – von der Neugeborenenakne bis zur sogenannten Spätakne im Erwachsenenalter. Häufig betroffen sind Gesicht, Rücken, Brust, Dekolleté sowie Oberarme und Oberschenkel. Je nach Ausprägung zeigt sich Akne in Form von Mitessern (Komedonen), entzündlichen Papeln und Pusteln oder tieferliegenden Knoten. Während Akne in der Pubertät meist hormonell bedingt ist (Akne vulgaris), kann sich im Erwachsenenalter eine sogenannte Spätakne (Akne tarda) entwickeln – deren Ursachen sind vielfältig und individuell verschieden.</p>
 <h3 class="font-bold text-2xl pt-4 font-headline">Mögliche Einflussfaktoren</h3>
 <p>Die Entstehung von Akne kann durch eine Vielzahl von Faktoren begünstigt werden, darunter:</p>
-<ul class="list-disc list-inside space-y-2">
+<ul class="list-disc list-inside space-y-2 mt-2">
     <li>hormonelle Veränderungen (z.B. Pubertät, Schwangerschaft, Hormonumstellungen)</li>
     <li>genetische Veranlagung</li>
     <li>bestimmte Medikamente</li>
@@ -40,6 +40,7 @@ export const focusAreas: FocusArea[] = [
         title: "Allergien & Autoimmunreaktionen",
         shortDescription: "Individuelle naturheilkundliche Unterstützung für Ihr Immunsystem",
         longDescription: `
+<p><strong>Individuelle naturheilkundliche Unterstützung für Ihr Immunsystem</strong></p>
 <p>Immer mehr Menschen sind von Allergien oder autoimmunen Beschwerden betroffen. In meiner Praxis biete ich naturheilkundliche Verfahren an, die den Körper dabei unterstützen können, besser mit diesen Herausforderungen umzugehen und das Gleichgewicht des Immunsystems zu fördern.</p>
 
 <h3 class="font-bold text-2xl pt-4 font-headline">Was ist eine Allergie?</h3>
@@ -118,7 +119,9 @@ export const focusAreas: FocusArea[] = [
         icon: Waves,
         title: "Juckreiz",
         shortDescription: "Begleitung bei Juckreiz durch Ursachenforschung und den Einsatz natürlicher Mittel zur Linderung.",
-        longDescription: `<p>Ihre Haut juckt ständig, und das Bedürfnis zu kratzen ist Ihr ständiger Begleiter? Ihr Kind kratzt sich vielleicht sogar blutig? Juckreiz kann sehr belastend sein – vor allem, wenn er regelmäßig auftritt oder zu Schlafstörungen führt. Die Ursachen für Juckreiz sind vielfältig: Sie reichen von harmloser trockener Haut bis hin zu Allergien, inneren Erkrankungen oder psychischen Belastungen. Häufig ist der Juckreiz auch Ausdruck eines Ungleichgewichts im Körper. Durch ständiges Kratzen kann die Haut geschädigt werden, was Entzündungen begünstigt.</p>
+        longDescription: `
+<p><strong>Juckreiz – Wenn die Haut ständig ruft</strong></p>
+<p>Ihre Haut juckt ständig, und das Bedürfnis zu kratzen ist Ihr ständiger Begleiter? Ihr Kind kratzt sich vielleicht sogar blutig? Juckreiz kann sehr belastend sein – vor allem, wenn er regelmäßig auftritt oder zu Schlafstörungen führt. Die Ursachen für Juckreiz sind vielfältig: Sie reichen von harmloser trockener Haut bis hin zu Allergien, inneren Erkrankungen oder psychischen Belastungen. Häufig ist der Juckreiz auch Ausdruck eines Ungleichgewichts im Körper. Durch ständiges Kratzen kann die Haut geschädigt werden, was Entzündungen begünstigt.</p>
 <h3 class="font-bold text-2xl pt-4 font-headline">Was kann hinter dem Juckreiz stecken?</h3>
 <p>Juckreiz (medizinisch Pruritus) ist ein häufiges Hautsymptom, dessen Auslöser nicht immer leicht zu erkennen sind. Hier sind einige mögliche Ursachen:</p>
 <h4 class="font-bold text-xl pt-2 font-headline">Häufige Auslöser von Juckreiz:</h4>
@@ -206,7 +209,47 @@ export const focusAreas: FocusArea[] = [
         icon: DiscAlbum,
         title: "Schuppenflechte",
         shortDescription: "Naturheilkundliche Begleitung bei Schuppenflechte mit dem Ziel, das Immunsystem zu beruhigen und Entzündungen zu reduzieren.",
-        longDescription: "<p>Schuppenflechte (Psoriasis) ist eine Autoimmunerkrankung, die sich auf der Haut manifestieren kann. Mein Ansatz konzentriert sich darauf, das Immunsystem zu beruhigen und zur Reduzierung von Entzündungen im Körper beizutragen. Entgiftungsverfahren, spezielle Diäten und naturheilkundliche Mittel sind zentrale Bestandteile meiner Begleitung, um zur Kontrolle der Symptome beizutragen und das Hautbild zu unterstützen.</p>"
+        longDescription: `<p><strong>Schuppenflechte (Psoriasis) – wenn sich die Haut immer wieder schuppt</strong></p>
+<p>Stellen Sie an Ellbogen oder Knien immer wieder rundliche, scharf begrenzte Hautstellen fest, die leicht gerötet und mit silbrigen Schuppen bedeckt sind – aber kaum jucken? Dann könnte es sich um Psoriasis, auch Schuppenflechte genannt, handeln. Auch wenn diese Hautveränderungen nicht ansteckend sind, empfinden viele Betroffene sie als belastend – optisch wie emotional.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Was ist Psoriasis?</h3>
+<p>Die Schuppenflechte ist eine chronisch-entzündliche, nicht ansteckende Hauterkrankung, die in Schüben verläuft. Die Haut erneuert sich dabei viel zu schnell: Statt der üblichen 28 Tage dauert der Verhornungsprozess bei Psoriasis nur etwa 3–4 Tage. Die Folge: abgestorbene Hautzellen sammeln sich auf der Oberfläche, es entstehen trockene, schuppende Plaques.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Typische Symptome</h3>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Scharf begrenzte, runde, gerötete Hautstellen</li>
+    <li>Silbrig glänzende Schuppen, besonders an Ellbogen, Knien, Steißbein oder der Kopfhaut</li>
+    <li>Kaum Juckreiz, eher in akuten Phasen</li>
+    <li>Feine Blutpunkte beim Entfernen der obersten Schuppenschicht (sog. Auspitz-Phänomen)</li>
+    <li>Bläschenbildung an Händen und Füßen (bei bestimmten Psoriasisformen)</li>
+    <li>Nagelveränderungen wie Tüpfel- oder Krümelnägel</li>
+    <li>Gelenkbeschwerden (bei Psoriasis-Arthritis)</li>
+</ul>
+<p>Im Unterschied zur Neurodermitis ist der Juckreiz meist weniger ausgeprägt – ein Unterscheidungsmerkmal, auf das ich in meiner Praxis gerne eingehe, wenn eine klare Diagnose noch aussteht.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Was kann die Psoriasis verschlechtern?</h3>
+<p>Die Ursachen der Psoriasis sind noch nicht abschließend geklärt. Vermutet wird eine Autoimmunreaktion, bei der das Immunsystem körpereigene Hautzellen angreift. Auch eine genetische Veranlagung kann eine Rolle spielen. Schübe werden oft durch sogenannte Triggerfaktoren ausgelöst:</p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Infektionen (z.B. mit Streptokokken oder Hefepilzen)</li>
+    <li>Hautreizungen durch Sonnenbrand, Tattoos oder Kleidung</li>
+    <li>Hormonelle Veränderungen (z.B. in der Schwangerschaft)</li>
+    <li>Bestimmte Medikamente (z.B. Betablocker, ACE-Hemmer, NSAR)</li>
+    <li>Stress und seelische Belastung</li>
+    <li>Rauchen, Alkohol, ungesunde Ernährung</li>
+    <li>Übergewicht</li>
+    <li>Klima- und Wetterwechsel</li>
+</ul>
+<p>Diese Auslöser sind sehr individuell – es lohnt sich, sie im Rahmen einer ausführlichen Anamnese gemeinsam zu identifizieren.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Ganzheitliche Unterstützung bei Psoriasis</h3>
+<p>Aus schulmedizinischer Sicht gilt Psoriasis als nicht heilbar – viele Patient:innen erhalten kortisonhaltige Cremes oder systemische Medikamente. In der Naturheilkunde verfolgen wir einen ganzheitlichen Ansatz, der Körper, Haut und Lebensumstände mit einbezieht. In meiner Praxis habe ich mich auf Hauterkrankungen spezialisiert und arbeite bei Schuppenflechte unter anderem mit:</p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Phytotherapie (Pflanzenheilkunde)</li>
+    <li>Hautpflegeberatung</li>
+    <li>Ernährungsoptimierung und Darmsanierung</li>
+    <li>Stressbewältigung und Entlastung des Nervensystems</li>
+    <li>Begleitende Ausleitungsverfahren (z.B. bei Verdacht auf medikamentöse Belastung)</li>
+</ul>
+<h3 class="font-bold text-2xl pt-4 font-headline">Raum für Ihre persönliche Geschichte</h3>
+<p>Psoriasis ist nicht nur eine Erkrankung der Haut – sie betrifft oft auch das Selbstwertgefühl. Daher ist mir in der Behandlung besonders wichtig, Sie ganzheitlich zu sehen. In einer ausführlichen Anamnese lernen wir Ihre persönliche Krankheitsgeschichte kennen – und finden gemeinsam den passenden Weg für Sie. Ziel meiner Therapie ist immer eine spürbare Verbesserung Ihrer Lebensqualität.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Ich bin für Sie da</h3>
+<p>Haben Sie Fragen zur Schuppenflechte oder wünschen Sie sich eine naturheilkundliche Begleitung? Sprechen Sie mich gerne an – ich bin für Sie da und begleite Sie auf Ihrem Weg zu mehr Hautbalance und Wohlbefinden.</p>`
     },
     {
         slug: "warzen",
@@ -216,5 +259,7 @@ export const focusAreas: FocusArea[] = [
         longDescription: "<p>Warzen werden durch Viren verursacht und können ein Zeichen für ein geschwächtes lokales Immunsystem sein. Anstatt nur die Warze selbst zu entfernen, zielt mein Ansatz darauf ab, die körpereigene Abwehr zu unterstützen. Ich nutze pflanzliche Tinkturen und homöopathische Mittel, um den Körper bei der Auseinandersetzung mit dem Virus zu begleiten.</p>"
     }
 ];
+
+    
 
     
