@@ -156,8 +156,7 @@ export const focusAreas: FocusArea[] = [
         icon: Layers,
         title: "Neurodermitis",
         shortDescription: "Ganzheitliche Begleitung bei Neurodermitis mit Fokus auf Darmgesundheit, Ernährung und Pflanzenheilkunde.",
-        longDescription: `
-<p><strong>Neurodermitis – Wenn die Haut einfach nicht zur Ruhe kommt</strong></p>
+        longDescription: `<p><strong>Neurodermitis – Wenn die Haut einfach nicht zur Ruhe kommt</strong></p>
 <p>Leidet Ihre Haut unter quälendem Juckreiz? Müssen Sie sich kratzen, bis die Haut blutet? Besonders an den Beugeseiten der Arme und Beine? Oder zeigt Ihr Kind rote, schuppige Hautstellen und klagt über anhaltenden Juckreiz? Dann könnte es sich um eine Neurodermitis handeln.</p>
 <h3 class="font-bold text-2xl pt-4 font-headline">Was ist Neurodermitis?</h3>
 <p>Neurodermitis, auch atopisches Ekzem genannt, ist eine chronisch-entzündliche Hauterkrankung, die in Schüben verläuft und durch starken Juckreiz gekennzeichnet ist. Der Begriff „Neurodermitis“ stammt noch aus einer Zeit, in der man eine nervlich bedingte Hautentzündung vermutete – das konnte so nicht bestätigt werden. Dennoch zeigen viele Betroffene, dass Stress und psychische Belastung die Symptome verstärken können.</p>
@@ -256,7 +255,41 @@ export const focusAreas: FocusArea[] = [
         icon: Shield,
         title: "Warzen",
         shortDescription: "Unterstützung bei Warzen durch Stärkung der körpereigenen Abwehr mit natürlichen Mitteln.",
-        longDescription: "<p>Warzen werden durch Viren verursacht und können ein Zeichen für ein geschwächtes lokales Immunsystem sein. Anstatt nur die Warze selbst zu entfernen, zielt mein Ansatz darauf ab, die körpereigene Abwehr zu unterstützen. Ich nutze pflanzliche Tinkturen und homöopathische Mittel, um den Körper bei der Auseinandersetzung mit dem Virus zu begleiten.</p>"
+        longDescription: `<p><strong>Warzen – wenn kleine Hautveränderungen stören</strong></p>
+<p>Entdecken Sie bei sich oder Ihrem Kind verhornte oder erhabene Hautstellen, die einzeln oder in Gruppen auftreten? Sitzen sie vor allem an Händen oder Füßen? Oder hat Ihr Kind stecknadelkopfgroße Knötchen mit einer kleinen Delle in der Mitte? Dann könnte es sich um eine Warzeninfektion handeln.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Was sind Warzen?</h3>
+<p>Warzen sind gutartige, virusbedingte Hautwucherungen, die durch eine Infektion mit bestimmten Humanen Papillomviren (HPV) entstehen. Sie gelangen meist über kleine Verletzungen in die Haut und können sich – durch Schmierinfektion oder durch Kratzen – weiterverbreiten. Warzen sind ansteckend und können überall am Körper auftreten.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Verschiedene Arten von Warzen</h3>
+<h4 class="font-bold text-xl pt-2 font-headline">Dornwarzen (Verruca plantaris)</h4>
+<p>Diese treten vor allem an den Fußsohlen auf und wachsen meist nach innen, was beim Gehen Schmerzen verursachen kann. Sie werden manchmal mit Hühneraugen verwechselt. Ein Unterscheidungsmerkmal: Dornwarzen enthalten oft kleine dunkle Punkte, die durch eingewachsene Blutgefäße entstehen.</p>
+<h4 class="font-bold text-xl pt-2 font-headline">Gewöhnliche Warzen (Verruca vulgaris)</h4>
+<p>Diese entwickeln sich bevorzugt an Händen, Fingern, Füßen oder rund um die Nägel. Anfangs flach, werden sie mit der Zeit erhabener, verhornter und nehmen eine gelblich-bräunliche Farbe an. Juckreiz oder Schmerzen sind eher selten.</p>
+<h4 class="font-bold text-xl pt-2 font-headline">Dellwarzen (Molluscum contagiosum)</h4>
+<p>Vor allem bei Kindern verbreitet, erscheinen sie als kleine runde Knötchen mit einer zentralen Delle. Beim Aufkratzen tritt eine infektiöse Flüssigkeit aus – dadurch können sich die Warzen leicht über den ganzen Körper oder auf andere Personen ausbreiten. Dellwarzen werden auch Schwimmwarzen genannt, da sie häufig nach Schwimmbadbesuchen auftreten.</p>
+<h4 class="font-bold text-xl pt-2 font-headline">Alterswarzen (Seborrhoische Keratosen)</h4>
+<p>Diese haben zwar „Warze“ im Namen, sind aber nicht infektiös und nicht virusbedingt. Sie entstehen meist im höheren Lebensalter, sind bräunlich, oft wachsartig oder warzenartig rau, und können überall am Körper vorkommen – vor allem am Rumpf. Alterswarzen sind harmlos, werden aber oft aus kosmetischen Gründen als störend empfunden.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Wie entstehen Warzen?</h3>
+<p>Warzenviren können leichter eindringen, wenn die Hautbarriere geschwächt ist, etwa durch:</p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>kleine Hautverletzungen</li>
+    <li>aufgeweichte Haut (z.B. nach dem Baden)</li>
+    <li>starkes Schwitzen (vor allem an Füßen)</li>
+    <li>Ekzeme oder chronisch trockene Haut</li>
+    <li>ein geschwächtes Immunsystem</li>
+    <li>psychische Belastung und Stress</li>
+</ul>
+<p>Gerade Kinder, Sportler:innen und Menschen mit empfindlicher Haut sind häufiger betroffen.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Wie kann ich Sie bei Warzen unterstützen?</h3>
+<p>Warzen sind oft kosmetisch störend und können sich durch Kratzen weiterverbreiten – auf andere Körperstellen oder auf Familienmitglieder. Vor allem bei Kindern im Kindergartenalter ist eine rechtzeitige Behandlung sinnvoll, um eine Ausbreitung zu verhindern. In meiner naturheilkundlichen Praxis betrachte ich nicht nur die sichtbare Warze, sondern auch die individuellen Ursachen wie ein geschwächtes Immunsystem oder psychische Belastungen. Mein Behandlungsansatz zielt auf:</p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>natürliche Therapien zur lokalen Behandlung der Warzen</li>
+    <li>Stärkung des Immunsystems</li>
+    <li>Unterstützung der Hautbarriere</li>
+    <li>Begleitung bei Stress und emotionaler Belastung</li>
+</ul>
+<p>Warzen brauchen Geduld – aber mit einer ganzheitlichen Herangehensweise können wir viel erreichen. Ich nehme mir Zeit für Sie oder Ihr Kind und begleite Sie auf dem Weg zu gesunder Haut.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Sie möchten etwas gegen Warzen tun?</h3>
+<p>Dann sprechen Sie mich gerne an. Ich freue mich, Sie persönlich kennenzulernen und gemeinsam mit Ihnen die passende naturheilkundliche Behandlung zu finden.</p>`
     }
 ];
 
