@@ -35,16 +35,17 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
               <h1 className="text-4xl md:text-5xl font-bold font-headline text-balance">
                 {title}
               </h1>
-              <p className="text-lg text-muted-foreground whitespace-pre-line">
-                {longDescription}
-              </p>
+              <div
+                className="text-lg text-foreground/90 space-y-4"
+                dangerouslySetInnerHTML={{ __html: longDescription }}
+              />
               
               <Card className="mt-6 bg-secondary/50">
                 <CardHeader>
                     <CardTitle className="font-headline text-xl">Preisinformation</CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <p className="text-lg">{price}</p>
+                    <p className="text-lg whitespace-pre-line">{price}</p>
                     <p className="text-sm text-muted-foreground mt-1">Weitere Sitzungen und Pakete auf Anfrage.</p>
                 </CardContent>
               </Card>
