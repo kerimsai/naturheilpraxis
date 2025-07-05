@@ -29,7 +29,7 @@ export const services: Service[] = [
     icon: ShieldCheck,
     title: "Aderlass",
     description: "Traditionelles Ausleitverfahren zur Unterstützung der körpereigenen Regeneration.",
-    longDescription: "Der Aderlass nach Hildegard von Bingen ist ein bewährtes Ausleitungsverfahren zur Reinigung des Blutes und zur Entlastung des Körpers. Es dient der Entgiftung, der Verbesserung der Blutzirkulation und der Harmonisierung der Körpersäfte. Diese Behandlung kann bei einer Vielzahl von chronischen Beschwerden und zur allgemeinen Prävention eingesetzt werden.",
+    longDescription: "<p>Der Aderlass nach Hildegard von Bingen ist ein bewährtes Ausleitungsverfahren zur Reinigung des Blutes und zur Entlastung des Körpers. Es dient der Entgiftung, der Verbesserung der Blutzirkulation und der Harmonisierung der Körpersäfte. Diese Behandlung kann bei einer Vielzahl von chronischen Beschwerden und zur allgemeinen Prävention eingesetzt werden.</p>",
     price: "Sitzung: ab 95€",
     image: "https://placehold.co/800x600.png",
     imageHint: "blood donation"
@@ -39,7 +39,7 @@ export const services: Service[] = [
     icon: Microscope,
     title: "Mikrobiom-Analyse",
     description: "Detaillierte Analyse Ihrer Darmflora zur gezielten Begleitung Ihrer Verdauungsgesundheit",
-    longDescription: "Ihr Darmmikrobiom spielt eine entscheidende Rolle für Ihre Gesundheit. Mit einer modernen Mikrobiom-Analyse untersuche ich die Zusammensetzung Ihrer Darmbakterien und leite daraus individuelle Therapieempfehlungen ab. Verbessern Sie Ihre Verdauung, stärken Sie Ihr Immunsystem und steigern Sie Ihr Wohlbefinden durch einen gesunden Darm.",
+    longDescription: "<p>Ihr Darmmikrobiom spielt eine entscheidende Rolle für Ihre Gesundheit. Mit einer modernen Mikrobiom-Analyse untersuche ich die Zusammensetzung Ihrer Darmbakterien und leite daraus individuelle Therapieempfehlungen ab. Verbessern Sie Ihre Verdauung, stärken Sie Ihr Immunsystem und steigern Sie Ihr Wohlbefinden durch einen gesunden Darm.</p>",
     price: "Analyse & Beratung: 250€",
     image: "https://placehold.co/800x600.png",
     imageHint: "microscope laboratory"
@@ -49,7 +49,7 @@ export const services: Service[] = [
     icon: Leaf,
     title: "Pflanzenheilkunde",
     description: "Die Pflanzenheilkunde nutzt Heilpflanzen, um die natürlichen Selbstheilungskräfte des Körpers zu unterstützen",
-    longDescription: "Die Phytotherapie oder Heilpflanzenkunde hat eine lange Geschichte und lange Tradition. Sie begleitet die Menschheit schon seit Jahrhunderten und wird bis heute erfolgreich eingesetzt. In der Heilpflanzenkunde werden Heilpflanzen und Kräuter zur Linderung von Beschwerden und zur Vorbeugung von Krankheiten genutzt. Sie eignen sich als begleitende Maßnahmen und sind in verschiedensten Darreichungsformen wie z.B.: Tees, Tinkturen, Badezusätze, Tabletten, Salben verfügbar.",
+    longDescription: "<p>Die Phytotherapie oder Heilpflanzenkunde hat eine lange Geschichte und lange Tradition. Sie begleitet die Menschheit schon seit Jahrhunderten und wird bis heute erfolgreich eingesetzt. In der Heilpflanzenkunde werden Heilpflanzen und Kräuter zur Linderung von Beschwerden und zur Vorbeugung von Krankheiten genutzt. Sie eignen sich als begleitende Maßnahmen und sind in verschiedensten Darreichungsformen wie z.B.: Tees, Tinkturen, Badezusätze, Tabletten, Salben verfügbar.</p>",
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "herbs medicine"
@@ -59,13 +59,7 @@ export const services: Service[] = [
     icon: Ear,
     title: "Ohrakupunktur",
     description: "Diagnose und Therapie durch Stimulation von Reflexzonen am Ohr zur ganzheitlichen Begleitung von Körper und Psyche",
-    longDescription: `Die französische Ohrakupunktur wurde von dem französichen Arzt Paul Nogier ins Leben gerufen und dient der Diagnosefindung und Therapie.
-
-Das Ohr repräsentiert die Reflexzonen des gesamten menschlichen Körpers. Jeder Punkt im Ohr ist einem bestimmten Organ zugeordnet.
-
-Zur Diagnosefindung werden diese Punkte, z.B. über einen Hautwiderstandstest, auf Druckschmerz oder Schwäche geprüft.
-
-Durch das Setzen von kleinen Akupunkturnadeln in die betreffenden Reflexpunkte ist es möglcih auf Organe, Schmerzen und Psyche Einfluss zu nehmen und diese positiv zu beeinflussen.`,
+    longDescription: `<p>Die französische Ohrakupunktur wurde von dem französichen Arzt Paul Nogier ins Leben gerufen und dient der Diagnosefindung und Therapie.</p><p>Das Ohr repräsentiert die Reflexzonen des gesamten menschlichen Körpers. Jeder Punkt im Ohr ist einem bestimmten Organ zugeordnet.</p><p>Zur Diagnosefindung werden diese Punkte, z.B. über einen Hautwiderstandstest, auf Druckschmerz oder Schwäche geprüft.</p><p>Durch das Setzen von kleinen Akupunkturnadeln in die betreffenden Reflexpunkte ist es möglcih auf Organe, Schmerzen und Psyche Einfluss zu nehmen und diese positiv zu beeinflussen.</p>`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "acupuncture ear"
@@ -75,21 +69,7 @@ Durch das Setzen von kleinen Akupunkturnadeln in die betreffenden Reflexpunkte i
     icon: Filter,
     title: "Entgiftung & Entsäuerung",
     description: "Begleitende naturheilkundliche Maßnahmen zur Unterstützung des Stoffwechsels und des inneren Gleichgewichts",
-    longDescription: `Eine Entgiftungskur und Entsäuerung des Körpers kann bei vielen Beschwerden und Erkrankungen sinnvoll sein. Verschiedenste Ursachen können zu einer Übersäuerung des Körpers beitragen:
-
-- zuviel säurebildende Nahrung z.B.: zuviel Fett, Zucker, Weizenprodukte, Fleisch
-- zuckerhaltige Getränke (Säfte), Kaffee/schwarzer Tee, Alkohol
-- Bewegungsmangel
-- Rauchen
-- Medikamente
-- Stress, Sorgen, Ängste
-- …
-
-Mein Körper ist eigentlich in der Lage Stoffe, die im Körper nicht benötigt werden auszuscheiden. Dies geschieht über die Ausscheidungsorgane: Haut, Leber, Niere, Darm, Lymphe und Lunge.
-
-Ist die Säurelast im Körper zu hoch, fallen zuviel Abfallprodukte an. Der Körper kann diese nicht schnell genug loswerden und lagert diese im Bindegewebe ab.
-
-Diese Ablagerungen können die Funktionen im Körper stören oder Zellen schädigen. Daher kann sich eine regelmäßige Entgiftung und Entsäuerung positiv auf die Regulationsfähigkeit des Körpers auswirken und zur Behandlung von Erkrankungen beitragen.`,
+    longDescription: `<p>Eine Entgiftungskur und Entsäuerung des Körpers kann bei vielen Beschwerden und Erkrankungen sinnvoll sein. Verschiedenste Ursachen können zu einer Übersäuerung des Körpers beitragen:</p><ul class="list-disc list-inside space-y-2 mt-2"><li>zuviel säurebildende Nahrung z.B.: zuviel Fett, Zucker, Weizenprodukte, Fleisch</li><li>zuckerhaltige Getränke (Säfte), Kaffee/schwarzer Tee, Alkohol</li><li>Bewegungsmangel</li><li>Rauchen</li><li>Medikamente</li><li>Stress, Sorgen, Ängste</li><li>…</li></ul><p>Mein Körper ist eigentlich in der Lage Stoffe, die im Körper nicht benötigt werden auszuscheiden. Dies geschieht über die Ausscheidungsorgane: Haut, Leber, Niere, Darm, Lymphe und Lunge.</p><p>Ist die Säurelast im Körper zu hoch, fallen zuviel Abfallprodukte an. Der Körper kann diese nicht schnell genug loswerden und lagert diese im Bindegewebe ab.</p><p>Diese Ablagerungen können die Funktionen im Körper stören oder Zellen schädigen. Daher kann sich eine regelmäßige Entgiftung und Entsäuerung positiv auf die Regulationsfähigkeit des Körpers auswirken und zur Behandlung von Erkrankungen beitragen.</p>`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "detox healthy"
@@ -99,7 +79,7 @@ Diese Ablagerungen können die Funktionen im Körper stören oder Zellen schädi
     icon: FlaskConical,
     title: "Milchsäureinfusion",
     description: "Infusion mit rechtsdrehender Milchsäure zur Unterstützung des Stoffwechsels und der Regeneration.",
-    longDescription: `Rechtsdrehende Milchsäure ist eine natürliche Substanz im Körper, die eine wichtige Rolle im Energiestoffwechsel spielt. Eine Milchsäureinfusion kann helfen, den Säure-Basen-Haushalt zu regulieren, die Zellatmung zu verbessern und die körperliche Regeneration zu fördern. Diese Behandlung ist besonders empfehlenswert bei Erschöpfungszuständen, zur Unterstützung nach sportlicher Betätigung oder als begleitende Maßnahme bei chronischen Erkrankungen, um die Vitalität zu steigern.`,
+    longDescription: `<p>Rechtsdrehende Milchsäure ist eine natürliche Substanz im Körper, die eine wichtige Rolle im Energiestoffwechsel spielt. Eine Milchsäureinfusion kann helfen, den Säure-Basen-Haushalt zu regulieren, die Zellatmung zu verbessern und die körperliche Regeneration zu fördern. Diese Behandlung ist besonders empfehlenswert bei Erschöpfungszuständen, zur Unterstützung nach sportlicher Betätigung oder als begleitende Maßnahme bei chronischen Erkrankungen, um die Vitalität zu steigern.</p>`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "infusion therapy"
@@ -109,22 +89,7 @@ Diese Ablagerungen können die Funktionen im Körper stören oder Zellen schädi
     icon: Spline,
     title: "MNT (Manuelle-Neuro-Therapie)",
     description: "Kombinierte Behandlung aus Massage, Reflextherapie und Mobilisation bei diversen Beschwerden.",
-    longDescription: `Die Manuelle-Neuro-Therapie nach Walter Froneberg kombiniert drei Einzeltechniken:
-
-1.  Die Behandlung beginnt mit einer spezifischen Muskel- und Nervenmassage.
-2.  Darauf folgt eine Nervenreflextherapie am Fuß, um direkt über das Nervensystem den Körper in allen Ebenen zu erfassen.
-3.  Anschließend erfolgt eine modifizierte Gelenkmobilisation.
-
-Durch diese aufeinander abgestimmten Techniken ist ein schneller Zugriff auf Muskel, Bänder, Gelenke, Nerven und Organe möglich. Die Manuelle Neurotherapie erfasst vielfältige Beschwerden und ermöglicht eine ganzheitliche Betrachtung des Menschen.
-
-Anwendungsbeispiele:
-- Hexenschuss
-- Ischialgie
-- Kopfschmerzen
-- Magen-Darmprobleme
-- Verstopfung (auch nach Schwangerschaft)
-- Rückenschmerzen
-- uvm.`,
+    longDescription: `<p>Die Manuelle-Neuro-Therapie nach Walter Froneberg kombiniert drei Einzeltechniken:</p><ol class="list-decimal list-inside space-y-2 mt-2"><li>Die Behandlung beginnt mit einer spezifischen Muskel- und Nervenmassage.</li><li>Darauf folgt eine Nervenreflextherapie am Fuß, um direkt über das Nervensystem den Körper in allen Ebenen zu erfassen.</li><li>Anschließend erfolgt eine modifizierte Gelenkmobilisation.</li></ol><p>Durch diese aufeinander abgestimmten Techniken ist ein schneller Zugriff auf Muskel, Bänder, Gelenke, Nerven und Organe möglich. Die Manuelle Neurotherapie erfasst vielfältige Beschwerden und ermöglicht eine ganzheitliche Betrachtung des Menschen.</p><h3 class="font-bold text-2xl pt-4 font-headline">Anwendungsbeispiele:</h3><ul class="list-disc list-inside space-y-2 mt-2"><li>Hexenschuss</li><li>Ischialgie</li><li>Kopfschmerzen</li><li>Magen-Darmprobleme</li><li>Verstopfung (auch nach Schwangerschaft)</li><li>Rückenschmerzen</li><li>uvm.</li></ul>`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "manual therapy"
@@ -134,7 +99,7 @@ Anwendungsbeispiele:
     icon: Gem,
     title: "Schüssler Salze",
     description: "Biochemische Anwendung nach Dr. Schüßler zur Unterstützung körpereigener Prozesse mit ausgewählten Mineralsalzen",
-    longDescription: `Dr. Schüßler war der Begründer der “Biochemischen Heilweise”. Er hat bei seinen Untersuchungen festgestellt, dass man durch bestimmte Salze, Informationen in den Zellen erneuern und aktivieren kann. Diesen Impuls in der Zelle unterstützte er durch die von ihm entwickelten Mineral-Salze.`,
+    longDescription: `<p>Dr. Schüßler war der Begründer der “Biochemischen Heilweise”. Er hat bei seinen Untersuchungen festgestellt, dass man durch bestimmte Salze, Informationen in den Zellen erneuern und aktivieren kann. Diesen Impuls in der Zelle unterstützte er durch die von ihm entwickelten Mineral-Salze.</p>`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "minerals salt"
@@ -144,9 +109,7 @@ Anwendungsbeispiele:
     icon: Sparkles,
     title: "Homöopathie",
     description: "Naturheilkundliche Methode nach dem Ähnlichkeitsprinzip – zur sanften Unterstützung der körpereigenen Regulation.",
-    longDescription: `Samuel Hahnemann prägte den Ausdruck “Gleiches mit gleichem Heilen”.
-
-Homöopathie bildet heute einen eigenständige Therapieform in der Naturheilkunde. Die Einzelsubstanzen, wurden am gesunden Menschen geprüft und nach der Ähnlichkeitsregel in potenzierter Form verabreicht.`,
+    longDescription: `<p>Samuel Hahnemann prägte den Ausdruck “Gleiches mit gleichem Heilen”.</p><p>Homöopathie bildet heute einen eigenständige Therapieform in der Naturheilkunde. Die Einzelsubstanzen, wurden am gesunden Menschen geprüft und nach der Ähnlichkeitsregel in potenzierter Form verabreicht.</p>`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
     imageHint: "homeopathy medicine"
