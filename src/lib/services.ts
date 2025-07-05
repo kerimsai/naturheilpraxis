@@ -38,7 +38,7 @@ export const services: Service[] = [
     slug: "mikrobiom-analyse",
     icon: Microscope,
     title: "Mikrobiom-Analyse",
-    description: "Detaillierte Analyse Ihrer Darmflora zur Optimierung der Verdauung und zur Stärkung der Gesundheit.",
+    description: "Detaillierte Analyse Ihrer Darmflora zur gezielten Begleitung Ihrer Verdauungsgesundheit",
     longDescription: "Ihr Darmmikrobiom spielt eine entscheidende Rolle für Ihre Gesundheit. Mit einer modernen Mikrobiom-Analyse untersuche ich die Zusammensetzung Ihrer Darmbakterien und leite daraus individuelle Therapieempfehlungen ab. Verbessern Sie Ihre Verdauung, stärken Sie Ihr Immunsystem und steigern Sie Ihr Wohlbefinden durch einen gesunden Darm.",
     price: "Analyse & Beratung: 250€",
     image: "https://placehold.co/800x600.png",
