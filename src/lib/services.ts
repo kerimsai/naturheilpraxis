@@ -18,7 +18,7 @@ export const services: Service[] = [
     slug: "vitamin-c-infusion",
     icon: Droplets,
     title: "Vitamin-C-Infusion",
-    description: "Hochdosierte Vitamin-C-Infusionen zur Stärkung des Immunsystems und zur Steigerung der Vitalität.",
+    description: "Vitamin-C-Infusionen können zur Unterstützung körpereigener Abwehrkräfte beitragen.",
     longDescription: "Meine hochdosierten Vitamin-C-Infusionen sind eine effektive Methode, um das Immunsystem zu stärken, die Kollagenproduktion anzuregen und den Körper vor oxidativem Stress zu schützen. Ideal bei erhöhter Infektanfälligkeit, chronischer Müdigkeit oder zur Unterstützung der Hautgesundheit. Erleben Sie einen sofortigen Vitalitätsschub.",
     price: "Sitzung: 120€",
     image: "https://placehold.co/800x600.png",
