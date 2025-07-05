@@ -6,6 +6,7 @@ import { Toaster } from "@/components/ui/toaster"
 export const metadata: Metadata = {
   title: 'Naturheilpraxis Julia Jordan',
   description: 'Ihr Weg zu natürlicher Heilung und Wohlbefinden',
+  icons: null,
 };
 
 export default function RootLayout({
