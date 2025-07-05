@@ -27,8 +27,8 @@ export const services: Service[] = [
   {
     slug: "aderlass-blutreinigung",
     icon: ShieldCheck,
-    title: "Aderlass & Blutreinigung",
-    description: "Traditionelles Ausleitverfahren zur Entgiftung und Blutreinigung.",
+    title: "Aderlass",
+    description: "Traditionelles Ausleitverfahren zur Unterstützung der körpereigenen Regeneration.",
     longDescription: "Der Aderlass nach Hildegard von Bingen ist ein bewährtes Ausleitungsverfahren zur Reinigung des Blutes und zur Entlastung des Körpers. Es dient der Entgiftung, der Verbesserung der Blutzirkulation und der Harmonisierung der Körpersäfte. Diese Behandlung kann bei einer Vielzahl von chronischen Beschwerden und zur allgemeinen Prävention eingesetzt werden.",
     price: "Sitzung: ab 95€",
     image: "https://placehold.co/800x600.png",
