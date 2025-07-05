@@ -42,7 +42,7 @@ export function Footer() {
           </div>
 
           <div className="space-y-4">
-            <h4 className="font-semibold text-lg font-headline">Folgen Sie uns</h4>
+            <h4 className="font-semibold text-lg font-headline">Folgen Sie mir</h4>
             <div className="flex space-x-2">
               {socialLinks.map((link) => {
                 const Icon = link.icon;
