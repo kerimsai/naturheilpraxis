@@ -58,7 +58,7 @@ export const services: Service[] = [
     slug: "ohrakupunktur",
     icon: Ear,
     title: "Ohrakupunktur",
-    description: "Diagnose und Therapie durch Stimulation von Reflexzonen am Ohr zur positiven Beeinflussung von Organen, Schmerzen und Psyche.",
+    description: "Diagnose und Therapie durch Stimulation von Reflexzonen am Ohr zur ganzheitlichen Begleitung von Körper und Psyche",
     longDescription: `Die französische Ohrakupunktur wurde von dem französichen Arzt Paul Nogier ins Leben gerufen und dient der Diagnosefindung und Therapie.
 
 Das Ohr repräsentiert die Reflexzonen des gesamten menschlichen Körpers. Jeder Punkt im Ohr ist einem bestimmten Organ zugeordnet.
