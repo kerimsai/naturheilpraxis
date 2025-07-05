@@ -14,9 +14,9 @@ export default function AllServicesPage() {
       <main className="flex-1">
         <section id="services-list" className="container py-12 md:py-24">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold font-headline">Unsere Leistungen</h1>
+            <h1 className="text-4xl md:text-5xl font-bold font-headline">Meine Leistungen</h1>
             <p className="text-lg text-muted-foreground mt-4 max-w-3xl mx-auto">
-              Entdecken Sie unser umfassendes Angebot an naturheilkundlichen Behandlungen, die darauf ausgelegt sind, Ihre Gesundheit zu fördern und Ihr Wohlbefinden zu steigern.
+              Entdecken Sie mein umfassendes Angebot an naturheilkundlichen Behandlungen, die darauf ausgelegt sind, Ihre Gesundheit zu fördern und Ihr Wohlbefinden zu steigern.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
