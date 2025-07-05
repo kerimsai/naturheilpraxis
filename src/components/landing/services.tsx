@@ -22,7 +22,7 @@ export function Services() {
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold font-headline">Meine Behandlungen</h2>
         <p className="text-lg text-muted-foreground mt-2 max-w-3xl mx-auto">
-          Entdecken Sie eine Auswahl meiner exklusiven Schönheits- und Wellnessanwendungen, die darauf ausgelegt sind, Ihre natürliche Schönheit zu betonen und Ihr Wohlbefinden zu steigern.
+          Entdecken Sie eine Auswahl meiner Therapieanwendungen zur Unterstützung Ihrer Gesundheit und zur Stärkung Ihres Wohlbefindens.
         </p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

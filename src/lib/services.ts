@@ -19,7 +19,7 @@ export const services: Service[] = [
     icon: Droplets,
     title: "Vitamin-C-Infusion",
     description: "Hochdosierte Vitamin-C-Infusionen zur Stärkung des Immunsystems und zur Steigerung der Vitalität.",
-    longDescription: "Unsere hochdosierten Vitamin-C-Infusionen sind eine effektive Methode, um das Immunsystem zu stärken, die Kollagenproduktion anzuregen und den Körper vor oxidativem Stress zu schützen. Ideal bei erhöhter Infektanfälligkeit, chronischer Müdigkeit oder zur Unterstützung der Hautgesundheit. Erleben Sie einen sofortigen Vitalitätsschub.",
+    longDescription: "Meine hochdosierten Vitamin-C-Infusionen sind eine effektive Methode, um das Immunsystem zu stärken, die Kollagenproduktion anzuregen und den Körper vor oxidativem Stress zu schützen. Ideal bei erhöhter Infektanfälligkeit, chronischer Müdigkeit oder zur Unterstützung der Hautgesundheit. Erleben Sie einen sofortigen Vitalitätsschub.",
     price: "Sitzung: 120€",
     image: "https://placehold.co/800x600.png",
     imageHint: "iv drip"
@@ -39,7 +39,7 @@ export const services: Service[] = [
     icon: Microscope,
     title: "Mikrobiom-Analyse",
     description: "Detaillierte Analyse Ihrer Darmflora zur Optimierung der Verdauung und zur Stärkung der Gesundheit.",
-    longDescription: "Ihr Darmmikrobiom spielt eine entscheidende Rolle für Ihre Gesundheit. Mit einer modernen Mikrobiom-Analyse untersuchen wir die Zusammensetzung Ihrer Darmbakterien und leiten daraus individuelle Therapieempfehlungen ab. Verbessern Sie Ihre Verdauung, stärken Sie Ihr Immunsystem und steigern Sie Ihr Wohlbefinden durch einen gesunden Darm.",
+    longDescription: "Ihr Darmmikrobiom spielt eine entscheidende Rolle für Ihre Gesundheit. Mit einer modernen Mikrobiom-Analyse untersuche ich die Zusammensetzung Ihrer Darmbakterien und leite daraus individuelle Therapieempfehlungen ab. Verbessern Sie Ihre Verdauung, stärken Sie Ihr Immunsystem und steigern Sie Ihr Wohlbefinden durch einen gesunden Darm.",
     price: "Analyse & Beratung: 250€",
     image: "https://placehold.co/800x600.png",
     imageHint: "microscope laboratory"
@@ -85,7 +85,7 @@ Durch das Setzen von kleinen Akupunkturnadeln in die betreffenden Reflexpunkte i
 - Stress, Sorgen, Ängste
 - …
 
-Unser Körper ist eigentlich in der Lage Stoffe, die im Körper nicht benötigt werden auszuscheiden. Dies geschieht über die Ausscheidungsorgane: Haut, Leber, Niere, Darm, Lymphe und Lunge.
+Mein Körper ist eigentlich in der Lage Stoffe, die im Körper nicht benötigt werden auszuscheiden. Dies geschieht über die Ausscheidungsorgane: Haut, Leber, Niere, Darm, Lymphe und Lunge.
 
 Ist die Säurelast im Körper zu hoch, fallen zuviel Abfallprodukte an. Der Körper kann diese nicht schnell genug loswerden und lagert diese im Bindegewebe ab.
 
