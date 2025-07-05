@@ -5,7 +5,6 @@ import { Header } from '@/components/landing/header';
 import { Footer } from '@/components/landing/footer';
 import { focusAreas } from '@/lib/focus-areas';
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
 
 export async function generateStaticParams() {
   return focusAreas.map((area) => ({
@@ -27,7 +26,7 @@ export default function FocusAreaDetailPage({ params }: { params: { slug: string
       <Header />
       <main className="flex-1 bg-background">
         <section className="container py-12 md:py-24">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="max-w-4xl mx-auto">
             <div className="flex flex-col gap-4">
               <div className="inline-block bg-accent p-3 rounded-full self-start mb-2">
                 <Icon className="w-8 h-8 text-primary" />
@@ -48,15 +47,6 @@ export default function FocusAreaDetailPage({ params }: { params: { slug: string
                   <Link href="/schwerpunkte">Alle Schwerpunkte</Link>
                 </Button>
               </div>
-            </div>
-            <div className="relative h-96 lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-xl mt-8 lg:mt-0">
-              <Image
-                src="https://placehold.co/800x600.png"
-                alt={`Bild, das ${title} darstellt`}
-                fill
-                className="object-cover"
-                data-ai-hint="holistic health"
-              />
             </div>
           </div>
         </section>
