@@ -48,7 +48,7 @@ export const services: Service[] = [
     slug: "pflanzenheilkunde",
     icon: Leaf,
     title: "Pflanzenheilkunde",
-    description: "Traditionelle Heilpflanzenkunde zur Linderung von Beschwerden und Vorbeugung von Krankheiten.",
+    description: "Die Pflanzenheilkunde nutzt Heilpflanzen, um die natürlichen Selbstheilungskräfte des Körpers zu unterstützen",
     longDescription: "Die Phytotherapie oder Heilpflanzenkunde hat eine lange Geschichte und lange Tradition. Sie begleitet die Menschheit schon seit Jahrhunderten und wird bis heute erfolgreich eingesetzt. In der Heilpflanzenkunde werden Heilpflanzen und Kräuter zur Linderung von Beschwerden und zur Vorbeugung von Krankheiten genutzt. Sie eignen sich als begleitende Maßnahmen und sind in verschiedensten Darreichungsformen wie z.B.: Tees, Tinkturen, Badezusätze, Tabletten, Salben verfügbar.",
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
