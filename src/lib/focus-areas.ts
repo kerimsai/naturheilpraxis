@@ -118,7 +118,35 @@ export const focusAreas: FocusArea[] = [
         icon: Waves,
         title: "Juckreiz",
         shortDescription: "Begleitung bei Juckreiz durch Ursachenforschung und den Einsatz natürlicher Mittel zur Linderung.",
-        longDescription: "<p>Juckreiz (Pruritus) kann viele Ursachen haben, von trockener Haut bis hin zu inneren Erkrankungen. Ich unterstütze Sie dabei, nach der Wurzel des Problems zu suchen. Eine Kombination aus topischen natürlichen Mitteln, pflanzlichen Heilmitteln und Anpassungen des Lebensstils kann dazu beitragen, die Haut zu beruhigen und den Juckreiz zu lindern.</p>"
+        longDescription: `<p>Ihre Haut juckt ständig, und das Bedürfnis zu kratzen ist Ihr ständiger Begleiter? Ihr Kind kratzt sich vielleicht sogar blutig? Juckreiz kann sehr belastend sein – vor allem, wenn er regelmäßig auftritt oder zu Schlafstörungen führt. Die Ursachen für Juckreiz sind vielfältig: Sie reichen von harmloser trockener Haut bis hin zu Allergien, inneren Erkrankungen oder psychischen Belastungen. Häufig ist der Juckreiz auch Ausdruck eines Ungleichgewichts im Körper. Durch ständiges Kratzen kann die Haut geschädigt werden, was Entzündungen begünstigt.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Was kann hinter dem Juckreiz stecken?</h3>
+<p>Juckreiz (medizinisch Pruritus) ist ein häufiges Hautsymptom, dessen Auslöser nicht immer leicht zu erkennen sind. Hier sind einige mögliche Ursachen:</p>
+<h4 class="font-bold text-xl pt-2 font-headline">Häufige Auslöser von Juckreiz:</h4>
+<div class="space-y-4 mt-4">
+    <p><strong>Trockene Haut:</strong> Mit zunehmendem Alter oder durch äußere Einflüsse wie Sonne, Seifen oder Wassermangel verliert die Haut an Feuchtigkeit. Dadurch wird sie anfälliger für Reizungen und beginnt zu jucken.</p>
+    <p><strong>Allergien:</strong> Bei allergischen Reaktionen (z.B. auf Pollen, Tierhaare, Nickel, Kosmetika) werden körpereigene Botenstoffe wie Histamin freigesetzt, die starken Juckreiz verursachen können.</p>
+    <p><strong>Nahrungsmittelunverträglichkeiten:</strong> Besonders bei Histaminunverträglichkeit oder bestimmten Zusatzstoffen kann es zu Hautreaktionen und Juckreiz kommen – oft begleitet von Verdauungsbeschwerden.</p>
+    <p><strong>Medikamente:</strong> Bestimmte Arzneimittel wie Antibiotika, Hormonpräparate oder Schmerzmittel (z.B. Ibuprofen) können als Nebenwirkung Juckreiz verursachen.</p>
+    <p><strong>Ekzeme & Neurodermitis:</strong> Ekzeme sind entzündliche Hautveränderungen, die mit Rötung, Bläschen und starkem Juckreiz einhergehen. Kratzen verschlimmert oft den Hautzustand.</p>
+    <p><strong>„Sonnenallergie“ & Lichtdermatosen:</strong> Überempfindlichkeiten gegenüber Sonnenlicht treten häufig im Frühjahr auf und äußern sich durch Juckreiz, Rötungen oder Bläschen.</p>
+    <p><strong>Akne & Schuppenflechte:</strong> Auch entzündliche Hauterkrankungen wie Akne oder Psoriasis (Schuppenflechte) können mit Juckreiz einhergehen.</p>
+    <p><strong>Hormonelle Umstellungen:</strong> Während Schwangerschaft oder Wechseljahren kann es zu hormonell bedingtem Juckreiz kommen.</p>
+    <p><strong>Innere Erkrankungen:</strong> Leber-, Nieren- oder Schilddrüsenerkrankungen, Eisenmangel, Diabetes oder Infektionen können Juckreiz als Begleitsymptom verursachen.</p>
+    <p><strong>Nährstoffungleichgewicht:</strong> Ein Zinkmangel oder eine Überdosierung von bestimmten Vitaminen kann Juckreiz begünstigen.</p>
+    <p><strong>Psychische Faktoren:</strong> Stress, emotionale Belastung oder Erschöpfung können sich auf die Haut auswirken. Gerade bei chronischem Juckreiz ist auch die seelische Komponente zu beachten.</p>
+    <p><strong>Parasiten (z.B. Läuse, Milben, Mückenstiche):</strong> Diese Auslöser sind meist eindeutig erkennbar und lokal begrenzt.</p>
+</div>
+<h3 class="font-bold text-2xl pt-4 font-headline">Wie ich Sie unterstützen kann</h3>
+<p>Juckreiz kann das tägliche Leben erheblich beeinträchtigen – körperlich wie seelisch. Um die passende Behandlung zu finden, nehme ich mir Zeit für eine ausführliche Anamnese. Dabei berücksichtige ich sowohl körperliche als auch seelische Ursachen und erstelle gemeinsam mit Ihnen einen ganzheitlichen Therapieansatz. In meiner Praxis kann ich Sie u. a. unterstützen mit:</p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>naturheilkundlichen Therapiekonzepten</li>
+    <li>gezielter Hautpflegeberatung</li>
+    <li>Ernährungs- und Darmgesundheitsberatung</li>
+    <li>begleitenden Infusionskuren (z.B. Vitamin C)</li>
+    <li>ergänzenden Maßnahmen zur Stressregulation</li>
+</ul>
+<h3 class="font-bold text-2xl pt-4 font-headline">Vereinbaren Sie gern ein persönliches Gespräch</h3>
+<p>Wenn Sie oder Ihr Kind unter Juckreiz leiden, zögern Sie nicht, mich anzusprechen. Gemeinsam finden wir einen Weg, Ihre Haut zu beruhigen und Ihr Wohlbefinden zu verbessern.</p>`
     },
     {
         slug: "neurodermitis",
