@@ -55,7 +55,7 @@ export function Booking() {
     console.log(values);
     toast({
         title: "Terminanfrage gesendet",
-        description: "Vielen Dank! Wir haben Ihre Anfrage erhalten und werden uns in Kürze zur Bestätigung bei Ihnen melden.",
+        description: "Vielen Dank! Ich habe Ihre Anfrage erhalten und werde mich in Kürze zur Bestätigung bei Ihnen melden.",
     });
     form.reset();
   }
@@ -66,7 +66,7 @@ export function Booking() {
         <div>
             <h2 className="text-3xl md:text-4xl font-bold font-headline">Buchen Sie Ihren Termin</h2>
             <p className="text-lg text-muted-foreground mt-2 max-w-xl">
-                Bereit, den ersten Schritt zu besserer Gesundheit zu machen? Füllen Sie das Formular aus, um einen Termin anzufragen. Wir freuen uns darauf, Sie in unserer Praxis begrüssen zu dürfen.
+                Bereit, den ersten Schritt zu besserer Gesundheit zu machen? Füllen Sie das Formular aus, um einen Termin anzufragen. Ich freue mich darauf, Sie in meiner Praxis begrüssen zu dürfen.
             </p>
             <Image
                 src="https://placehold.co/800x600.png"
@@ -81,7 +81,7 @@ export function Booking() {
           <CardHeader>
             <CardTitle className="font-headline text-2xl">Termin anfragen</CardTitle>
             <CardDescription>
-              Wir werden Ihren Termin per E-Mail bestätigen.
+              Ich werde Ihren Termin per E-Mail bestätigen.
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -162,7 +162,7 @@ export function Booking() {
                     <FormItem>
                       <FormLabel>Nachricht (Optional)</FormLabel>
                       <FormControl>
-                        <Textarea placeholder="Erzählen Sie uns ein wenig über Ihre gesundheitlichen Anliegen..." {...field} />
+                        <Textarea placeholder="Erzählen Sie mir ein wenig über Ihre gesundheitlichen Anliegen..." {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
