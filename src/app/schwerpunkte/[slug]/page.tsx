@@ -35,9 +35,10 @@ export default function FocusAreaDetailPage({ params }: { params: { slug: string
               <h1 className="text-4xl md:text-5xl font-bold font-headline text-balance">
                 {title}
               </h1>
-              <p className="text-lg text-muted-foreground whitespace-pre-line">
-                {longDescription}
-              </p>
+              <div
+                className="text-lg text-foreground/90 space-y-4"
+                dangerouslySetInnerHTML={{ __html: longDescription }}
+              />
               
               <div className="flex flex-wrap gap-4 mt-8">
                 <Button asChild size="lg">
