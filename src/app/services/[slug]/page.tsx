@@ -59,7 +59,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                 </Button>
               </div>
             </div>
-            <div className="relative h-96 lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-xl mt-8 lg:mt-0">
+            <div className="hidden lg:block relative h-96 lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-xl mt-8 lg:mt-0">
               <Image
                 src={image}
                 alt={`Bild, das ${title} darstellt`}
