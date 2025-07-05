@@ -74,7 +74,7 @@ Durch das Setzen von kleinen Akupunkturnadeln in die betreffenden Reflexpunkte i
     slug: "entgiftung-entsaeuerung",
     icon: Filter,
     title: "Entgiftung & Entsäuerung",
-    description: "Unterstützung des Körpers bei der Ausleitung von Schadstoffen und der Wiederherstellung des Säure-Basen-Gleichgewichts.",
+    description: "Begleitende naturheilkundliche Maßnahmen zur Unterstützung des Stoffwechsels und des inneren Gleichgewichts",
     longDescription: `Eine Entgiftungskur und Entsäuerung des Körpers kann bei vielen Beschwerden und Erkrankungen sinnvoll sein. Verschiedenste Ursachen können zu einer Übersäuerung des Körpers beitragen:
 
 - zuviel säurebildende Nahrung z.B.: zuviel Fett, Zucker, Weizenprodukte, Fleisch
