@@ -40,7 +40,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                 dangerouslySetInnerHTML={{ __html: longDescription }}
               />
               
-              <Card className="mt-6 bg-secondary/50">
+              <Card className="mt-6 bg-secondary/50 lg:hidden">
                 <CardHeader>
                     <CardTitle className="font-headline text-xl">Preisinformation</CardTitle>
                 </CardHeader>
@@ -59,14 +59,25 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                 </Button>
               </div>
             </div>
-            <div className="hidden lg:block relative h-96 lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-xl mt-8 lg:mt-0">
-              <Image
-                src={image}
-                alt={`Bild, das ${title} darstellt`}
-                fill
-                className="object-cover"
-                data-ai-hint={imageHint}
-              />
+            <div className="hidden lg:flex flex-col gap-8 mt-8 lg:mt-0">
+              <div className="relative h-96 lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-xl">
+                <Image
+                  src={image}
+                  alt={`Bild, das ${title} darstellt`}
+                  fill
+                  className="object-cover"
+                  data-ai-hint={imageHint}
+                />
+              </div>
+              <Card className="bg-secondary/50">
+                  <CardHeader>
+                      <CardTitle className="font-headline text-xl">Preisinformation</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                      <p className="text-lg whitespace-pre-line">{price}</p>
+                      <p className="text-sm text-muted-foreground mt-1">Weitere Sitzungen und Pakete auf Anfrage.</p>
+                  </CardContent>
+              </Card>
             </div>
           </div>
         </section>
