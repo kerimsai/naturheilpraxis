@@ -49,13 +49,14 @@ export default function AboutPage() {
                 naturheilkundlichen Lösung für Ihr Anliegen zu suchen.
               </p>
             </div>
-            <div className="relative h-[500px] lg:h-[600px] w-full rounded-2xl overflow-hidden shadow-xl">
+            <div className="flex justify-center">
               <Image
-                src="https://placehold.co/800x1200.png"
+                src="/images/JuliaJordanNHP.webp"
                 alt="Portrait von Julia Jordan"
-                fill
-                className="object-cover object-top"
-                data-ai-hint="woman portrait"
+                width={800}
+                height={1200}
+                className="rounded-2xl shadow-xl w-full h-auto max-w-[450px]"
+                priority
               />
             </div>
           </div>
