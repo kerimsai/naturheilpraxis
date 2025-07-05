@@ -153,7 +153,53 @@ export const focusAreas: FocusArea[] = [
         icon: Layers,
         title: "Neurodermitis",
         shortDescription: "Ganzheitliche Begleitung bei Neurodermitis mit Fokus auf Darmgesundheit, Ernährung und Pflanzenheilkunde.",
-        longDescription: "<p>Neurodermitis (atopisches Ekzem) ist eine chronisch-entzündliche Hauterkrankung, die eng mit dem Darm und dem Immunsystem verbunden sein kann. Mein Behandlungsansatz kann eine detaillierte Mikrobiom-Analyse, eine entzündungshemmende Ernährungsstrategie und den Einsatz von Pflanzenheilkunde umfassen, um die Hautbarriere zu unterstützen und zur Minimierung von Schüben beizutragen.</p>"
+        longDescription: `
+<p><strong>Neurodermitis – Wenn die Haut einfach nicht zur Ruhe kommt</strong></p>
+<p>Leidet Ihre Haut unter quälendem Juckreiz? Müssen Sie sich kratzen, bis die Haut blutet? Besonders an den Beugeseiten der Arme und Beine? Oder zeigt Ihr Kind rote, schuppige Hautstellen und klagt über anhaltenden Juckreiz? Dann könnte es sich um eine Neurodermitis handeln.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Was ist Neurodermitis?</h3>
+<p>Neurodermitis, auch atopisches Ekzem genannt, ist eine chronisch-entzündliche Hauterkrankung, die in Schüben verläuft und durch starken Juckreiz gekennzeichnet ist. Der Begriff „Neurodermitis“ stammt noch aus einer Zeit, in der man eine nervlich bedingte Hautentzündung vermutete – das konnte so nicht bestätigt werden. Dennoch zeigen viele Betroffene, dass Stress und psychische Belastung die Symptome verstärken können.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Typische Symptome der Neurodermitis</h3>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Starker, oft unerträglicher Juckreiz</li>
+    <li>Trockene, schuppige, gerötete Haut, besonders an den Beugeseiten (Arme, Knie)</li>
+    <li>Kratzwunden durch das unstillbare Jucken</li>
+    <li>Sichtbare Ekzeme – oft auch im Gesicht oder Halsbereich</li>
+    <li>Rissige Haut und Entzündungen durch aufgekratzte Stellen</li>
+    <li>In symptomfreien Phasen oft ein eher trockenes Hautbild</li>
+</ul>
+<p>Das Hautbild kann sich zwischen den Schüben deutlich bessern, dennoch bleibt die Haut meist empfindlich. Die psychische Belastung durch die sichtbaren Symptome darf dabei nicht unterschätzt werden – gerade im Gesicht kann Neurodermitis das Selbstwertgefühl stark beeinträchtigen.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Mögliche Ursachen und Auslöser</h3>
+<p>Die genauen Ursachen der Neurodermitis sind noch nicht vollständig geklärt. Vermutet wird ein Zusammenspiel verschiedener Faktoren:</p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li><strong>Vererbung / genetische Veranlagung (atopische Disposition):</strong> Häufig tritt Neurodermitis gemeinsam mit anderen Erkrankungen wie allergischem Asthma oder Heuschnupfen auf.</li>
+    <li><strong>Gestörte Hautbarriere:</strong> Die Haut verliert schneller Feuchtigkeit, reagiert überempfindlich auf äußere Reize und kann sich schlechter gegen Keime wehren.</li>
+    <li><strong>Allergien und Nahrungsmittelunverträglichkeiten:</strong> Viele Betroffene reagieren zusätzlich sensibel auf bestimmte Lebensmittel oder Umweltstoffe.</li>
+    <li><strong>Naturheilkundliche Sichtweise:</strong> hier gilt eine gestörte Darmflora als möglicher Mitverursacher. Auch ein übermäßiges Hygieneverhalten kann das Immunsystem langfristig aus dem Gleichgewicht bringen.</li>
+</ul>
+<h4 class="font-bold text-xl pt-2 font-headline">Mögliche Triggerfaktoren</h4>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Häufiges Waschen</li>
+    <li>Duft- und Konservierungsstoffe in Kosmetik, Kleidung oder Reinigungsmitteln</li>
+    <li>Kälte, Heizungsluft oder starke Hitze</li>
+    <li>Stress und seelische Belastung</li>
+</ul>
+<h3 class="font-bold text-2xl pt-4 font-headline">Wer ist betroffen?</h3>
+<p>Neurodermitis tritt vor allem im Kindesalter auf: etwa 10% der Kinder sind betroffen. Bei Erwachsenen liegt die Rate bei rund 1–2%. In vielen Fällen bessert sich die Erkrankung mit dem Älterwerden, bei manchen bleibt sie jedoch bestehen oder flackert immer wieder auf.</p>
+<p>Ein erstes Anzeichen bei Säuglingen kann sogenannter Milchschorf sein – eine krustige, juckende Veränderung am Kopf. Ein Hinweis auf eine allergische Veranlagung kann auch der sogenannte weiße Dermographismus sein: Streicht man mit einem Holzspatel über die Haut, zeigt sich bei Allergikern eine weiße Linie – bei Nicht-Allergikern eine rote.</p>
+<h3 class="font-bold text-2xl pt-4 font-headline">Wie ich Sie bei Neurodermitis unterstützen kann</h3>
+<p>Ob Sie selbst betroffen sind oder Ihr Kind – Neurodermitis kann belastend und kraftzehrend sein. Mein Ziel ist es, Ihnen individuell und einfühlsam zur Seite zu stehen.</p>
+<p>In meiner Praxis nehme ich mir Zeit für eine ausführliche Anamnese. So lerne ich nicht nur Ihre Haut, sondern auch Ihre Lebensumstände, Sorgen und Bedürfnisse kennen. Auf dieser Basis entwickeln wir gemeinsam einen Behandlungsplan, der genau zu Ihrer Situation passt.</p>
+<p>Besonders wichtig ist mir:</p>
+<ul class="list-disc list-inside space-y-2 mt-2">
+    <li>Raum für Ihre Gefühle – vor allem pflegende Angehörige wie Mütter erleben große Belastung. In meiner Praxis dürfen Sie offen sprechen, schimpfen, weinen oder auch Ekel äußern – all das ist menschlich und willkommen.</li>
+    <li>Individuelle Therapieansätze – naturheilkundlich und ganzheitlich orientiert</li>
+    <li>Beratung zur hautverträglichen Pflege und Ernährung</li>
+    <li>Stärkung der Darmgesundheit, wenn sinnvoll</li>
+    <li>Entspannung und Stressreduktion als unterstützende Maßnahmen</li>
+</ul>
+<h3 class="font-bold text-2xl pt-4 font-headline">Sie sind nicht allein – ich bin für Sie da</h3>
+<p>Haben Sie Fragen zur Neurodermitis oder zu anderen Hauterkrankungen? Vereinbaren Sie gerne einen Termin oder rufen Sie mich an. Ich nehme mir Zeit für Sie – und für Ihre Haut.</p>
+`
     },
     {
         slug: "schuppenflechte",
@@ -170,3 +216,5 @@ export const focusAreas: FocusArea[] = [
         longDescription: "<p>Warzen werden durch Viren verursacht und können ein Zeichen für ein geschwächtes lokales Immunsystem sein. Anstatt nur die Warze selbst zu entfernen, zielt mein Ansatz darauf ab, die körpereigene Abwehr zu unterstützen. Ich nutze pflanzliche Tinkturen und homöopathische Mittel, um den Körper bei der Auseinandersetzung mit dem Virus zu begleiten.</p>"
     }
 ];
+
+    
