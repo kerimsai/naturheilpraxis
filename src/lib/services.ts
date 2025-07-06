@@ -81,7 +81,7 @@ export const services: Service[] = [
     description: "Infusion mit rechtsdrehender Milchsäure zur Unterstützung des Stoffwechsels und der Regeneration.",
     longDescription: `<h3>Stoffwechsel und Regeneration</h3><p>Rechtsdrehende Milchsäure ist eine natürliche Substanz im Körper, die eine wichtige Rolle im Energiestoffwechsel spielt. Eine Milchsäureinfusion kann helfen, den Säure-Basen-Haushalt zu regulieren, die Zellatmung zu verbessern und die körperliche Regeneration zu fördern. Diese Behandlung ist besonders empfehlenswert bei Erschöpfungszuständen, zur Unterstützung nach sportlicher Betätigung oder als begleitende Maßnahme bei chronischen Erkrankungen, um die Vitalität zu steigern.</p>`,
     price: "Individuell nach Anamnese",
-    image: "https://placehold.co/800x600.png",
+    image: "https://images.unsplash.com/photo-1585673551689-74e88de97395?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmZ1c2lvbnxlbnwwfHx8fDE3NTE4MDUwMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "infusion therapy"
   },
   {
