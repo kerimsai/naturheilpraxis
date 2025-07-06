@@ -42,7 +42,7 @@ export default function ImpressumPage() {
             <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Berufsbezeichnung und berufsrechtliche Regelungen</h3>
             <p>
               Berufsbezeichnung:<br />
-              Heilpraktiker
+              Heilpraktiker (nach Heilpraktikergesetz)
             </p>
             <p>
               Zuständige Kammer:<br />
