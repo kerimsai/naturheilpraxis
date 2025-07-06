@@ -59,8 +59,9 @@ export function Footer() {
         </div>
         <div className="mt-8 flex flex-col items-center gap-4 border-t border-border/40 pt-8 text-center text-sm text-muted-foreground sm:flex-row sm:justify-between">
           <p>&copy; {new Date().getFullYear()} Naturheilpraxis Julia Jordan. Alle Rechte vorbehalten.</p>
-          <div className="flex gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/impressum" className="hover:text-primary">Impressum</Link>
+            <Link href="/datenschutz" className="hover:text-primary">Datenschutz</Link>
           </div>
         </div>
       </div>
