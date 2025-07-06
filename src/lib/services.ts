@@ -41,7 +41,7 @@ export const services: Service[] = [
     description: "Detaillierte Analyse Ihrer Darmflora zur gezielten Begleitung Ihrer Verdauungsgesundheit",
     longDescription: "<h3>Die zentrale Rolle des Darms</h3><p>Ihr Darmmikrobiom spielt eine entscheidende Rolle für Ihre Gesundheit. Mit einer modernen Mikrobiom-Analyse untersuche ich die Zusammensetzung Ihrer Darmbakterien und leite daraus individuelle Therapieempfehlungen ab. Verbessern Sie Ihre Verdauung, stärken Sie Ihr Immunsystem und steigern Sie Ihr Wohlbefinden durch einen gesunden Darm.</p>",
     price: "Analyse & Beratung: 250€",
-    image: "https://placehold.co/800x600.png",
+    image: "https://images.unsplash.com/photo-1614308460927-5024ba2e1dcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxNaWNyb3Njb3BlfGVufDB8fHx8MTc1MTgwNDcxOHww&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "microscope laboratory"
   },
   {
