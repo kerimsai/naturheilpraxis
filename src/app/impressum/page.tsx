@@ -21,7 +21,7 @@ export default function ImpressumPage() {
             <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Kontakt</h3>
             <p>
               Telefon: 0151- 507 986 38<br />
-              E-Mail: info@beautyroomaachen.de
+              E-Mail: info@heilpraxis-jordan.de
             </p>
 
             <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Umsatzsteuer-ID</h3>
