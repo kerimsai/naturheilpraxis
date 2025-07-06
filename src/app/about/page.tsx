@@ -48,6 +48,13 @@ export default function AboutPage() {
                 Ich freue mich, Sie kennenzulernen und gemeinsam mit Ihnen nach einer
                 naturheilkundlichen Lösung für Ihr Anliegen zu suchen.
               </p>
+              <Image
+                src="/images/signature.png"
+                alt="Unterschrift von Julia Jordan"
+                width={250}
+                height={100}
+                className="mt-6 object-contain"
+              />
             </div>
             <div className="flex justify-center">
               <Image
