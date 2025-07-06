@@ -1,3 +1,4 @@
+
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -59,7 +60,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                 </Button>
               </div>
             </div>
-            <div className="hidden lg:flex flex-col gap-8 mt-8 lg:mt-0">
+            <div className="hidden lg:sticky lg:top-24 lg:flex flex-col gap-8">
               <div className="relative h-96 lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src={image}
