@@ -49,9 +49,9 @@ export const services: Service[] = [
     icon: Leaf,
     title: "Pflanzenheilkunde",
     description: "Die Pflanzenheilkunde nutzt Heilpflanzen, um die natürlichen Selbstheilungskräfte des Körpers zu unterstützen",
-    longDescription: "<h3>Die Kraft der Natur</h3><p>Die Phytotherapie oder Heilpflanzenkunde hat eine lange Geschichte und lange Tradition. Sie begleitet die Menschheit schon seit Jahrhunderten und wird bis heute erfolgreich eingesetzt. In der Heilpflanzenkunde werden Heilpflanzen und Kräuter zur Linderung von Beschwerden und zur Vorbeugung von Krankheiten genutzt. Sie eignen sich als begleitende Maßnahmen und sind in verschiedensten Darreichungsformen wie z.B.: Tees, Tinkturen, Badezusätze, Tabletten, Salben verfügbar.</p>",
+    longDescription: `<h3>Die Kraft der Natur</h3><p>Die Phytotherapie oder Heilpflanzenkunde hat eine lange Geschichte und lange Tradition. Sie begleitet die Menschheit schon seit Jahrhunderten und wird bis heute erfolgreich eingesetzt. In der Heilpflanzenkunde werden Heilpflanzen und Kräuter zur Linderung von Beschwerden und zur Vorbeugung von Krankheiten genutzt. Sie eignen sich als begleitende Maßnahmen und sind in verschiedensten Darreichungsformen wie z.B.: Tees, Tinkturen, Badezusätze, Tabletten, Salben verfügbar.</p>`,
     price: "Individuell nach Anamnese",
-    image: "https://placehold.co/800x600.png",
+    image: "https://images.unsplash.com/photo-1624454002302-36b824d7bd0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxuYXR1cmFsJTIwbWVkaWNpbmV8ZW58MHx8fHwxNzUxODA0ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "herbs medicine"
   },
   {
