@@ -37,7 +37,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                 {title}
               </h1>
               <div
-                className="text-lg text-foreground/90 space-y-4"
+                className="text-lg text-foreground/90 prose-styling"
                 dangerouslySetInnerHTML={{ __html: longDescription }}
               />
               

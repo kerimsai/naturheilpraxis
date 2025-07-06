@@ -63,3 +63,30 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .prose-styling {
+    @apply space-y-4;
+  }
+  .prose-styling h3 {
+    @apply font-bold text-2xl font-headline mt-8 mb-3;
+  }
+  .prose-styling h4 {
+    @apply font-bold text-xl font-headline mt-6 mb-2;
+  }
+  .prose-styling h5 {
+    @apply font-semibold text-lg font-headline mt-4 mb-1;
+  }
+  .prose-styling ul {
+    @apply list-disc list-outside pl-5 space-y-2;
+  }
+  .prose-styling ol {
+    @apply list-decimal list-outside pl-5 space-y-2;
+  }
+  .prose-styling a {
+    @apply text-primary underline hover:no-underline;
+  }
+  .prose-styling .legal-notice {
+    @apply mt-6 p-4 border-l-4 border-primary bg-secondary/50 rounded-r-lg text-sm;
+  }
+}
