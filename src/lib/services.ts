@@ -91,7 +91,7 @@ export const services: Service[] = [
     description: "Kombinierte Behandlung aus Massage, Reflextherapie und Mobilisation bei diversen Beschwerden.",
     longDescription: `<h3>MNT ( Manuelle-Neuro-Therapie nach Walter Froneberg )</h3><p>Das Besondere an der Manuellen-Neuro-Therapie ist die Kombination aus drei Einzeltechniken:</p><ol><li>Die Behandlung beginnt mit einer spezifischen Muskel- und Nervenmassage.</li><li>Darauf folgt eine Nervenreflextherapie am Fuß. Mit ihr ist es möglich, direkt am und über das Nervensystem den Körper in allen Ebenen zu erfassen.</li><li>Dann erfolgt eine modifizierte Gelenkmobilisation.</li></ol><p>Durch diese bestmöglich aufeinander abgestimmten Einzeltechniken ist ein schneller Zugriff auf Muskel, Bänder, Gelenke, Nerven und Organe weitgehend möglich.</p><p>Die Manuelle Neurotherapie kann vielfache Beschwerden erfassen und schließt somit eine ganzheitliche Betrachtung des Menschen mit ein.</p><h3>Einige Beispiele für Krankheitsbilder:</h3><ul><li>Hexenschuss</li><li>Ischialgie</li><li>Kopfschmerzen</li><li>Magen-Darmprobleme</li><li>Verstopfung (auch nach Schwangerschaft)</li><li>Rückenschmerzen</li><li>uvm.</li></ul>`,
     price: "Individuell nach Anamnese",
-    image: "https://placehold.co/800x600.png",
+    image: "https://images.unsplash.com/photo-1709651669999-57741c9bf085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXVybyUyMHRoZXJhcGllfGVufDB8fHx8MTc1MTgwNTE4NHww&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "manual therapy"
   },
   {
