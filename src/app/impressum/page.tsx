@@ -11,35 +11,86 @@ export default function ImpressumPage() {
           <div className="max-w-3xl mx-auto prose-styling text-muted-foreground">
             <h1 className="text-4xl md:text-5xl font-bold font-headline text-foreground mb-8">Impressum</h1>
             
-            <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Angaben gemäß § 5 TMG</h3>
             <p>
               Julia Jordan<br />
-              Naturheilpraxis Julia Jordan<br />
-              Vaalserstr. 525<br />
-              52074 Aachen<br />
-              Deutschland
+              Heilpraktikerin<br />
+              Vaalser Str. 525<br />
+              52074 Aachen
             </p>
 
             <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Kontakt</h3>
             <p>
-              Telefon: +49 (0)151 50798638<br />
-              E-Mail: info@heilpraxis-jordan.de
+              Telefon: 0151- 507 986 38<br />
+              E-Mail: info@beautyroomaachen.de
             </p>
-            
+
+            <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Umsatzsteuer-ID</h3>
+            <p>
+              Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
+              201/5197/6732
+            </p>
+
+            <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Aufsichtsbehörde</h3>
+            <p>
+              Gesundheitsamt Aachen<br />
+              Gesundheitsamt Aachen<br />
+              Trierer Str. 1, <br />
+              52078 Aachen
+            </p>
+            <p><a href="https://www.staedteregion-aachen.de" target="_blank" rel="noopener noreferrer">https://www.staedteregion-aachen.de</a></p>
+
             <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Berufsbezeichnung und berufsrechtliche Regelungen</h3>
             <p>
-              Berufsbezeichnung: Heilpraktikerin<br />
-              Zuständige Aufsichtsbehörde: Gesundheitsamt Aachen<br />
-              Verliehen in: Deutschland<br />
-              Es gelten folgende berufsrechtliche Regelungen: Gesetz über die berufsmäßige Ausübung der Heilkunde ohne Bestallung (Heilpraktikergesetz) und Durchführungsverordnung.<br />
-              Regelungen einsehbar unter: <a href="http://www.gesetze-im-internet.de/heilprg/index.html" target="_blank" rel="noopener noreferrer">http://www.gesetze-im-internet.de/heilprg/index.html</a>
+              Berufsbezeichnung:<br />
+              Heilpraktiker
             </p>
-            
+            <p>
+              Zuständige Kammer:<br />
+              Gesundheitsamt der Stadt Köln<br />
+              Neumarkt 15–21<br />
+              50667 Köln
+            </p>
+            <p>
+              Verliehen in:<br />
+              Deutschland
+            </p>
+            <p>Es gelten folgende berufsrechtliche Regelungen:</p>
+            <p>
+              Heilpraktikergesetz (HeilprG)<br />
+              einsehbar unter: <a href="https://www.gesetze-im-internet.de/heilprg/" target="_blank" rel="noopener noreferrer">https://www.gesetze-im-internet.de/heilprg/</a>
+            </p>
+            <p>
+              1. Durchführungsverordnung zum Heilpraktikergesetz<br />
+              einsehbar unter: <a href="https://www.gesetze-im-internet.de/heilprgdv_1/" target="_blank" rel="noopener noreferrer">https://www.gesetze-im-internet.de/heilprgdv_1/</a>
+            </p>
+            <p>
+              Berufsordnung für Heilpraktiker (z.B. des Fachverbands)<br />
+              einsehbar unter: <a href="https://www.heilpraktiker.org/die-berufsordnung-fuer-heilpraktiker" target="_blank" rel="noopener noreferrer">https://www.heilpraktiker.org/die-berufsordnung-fuer-heilpraktiker</a>
+            </p>
+            <p>
+              Gesetz gegen den unlauteren Wettbewerb (UWG)<br />
+              einsehbar unter: <a href="https://www.gesetze-im-internet.de/uwg_2004" target="_blank" rel="noopener noreferrer">https://www.gesetze-im-internet.de/uwg_2004</a>
+            </p>
+            <p>
+              Heilmittelwerbegesetz (HWG)<br />
+              einsehbar unter: <a href="https://www.gesetze-im-internet.de/heilmwg/" target="_blank" rel="noopener noreferrer">https://www.gesetze-im-internet.de/heilmwg/</a>
+            </p>
+
             <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Angaben zur Berufshaftpflichtversicherung</h3>
             <p>
-                Name und Sitz des Versicherers:<br/>
-                <em>[Bitte hier Name und Anschrift der Versicherung einfügen]</em><br/>
-                Geltungsraum der Versicherung: Deutschland
+                <strong>Name und Sitz des Versicherers:</strong><br />
+                Die Continentale<br />
+                Ruhrallee 92<br />
+                44139 Dortmund
+            </p>
+            <p>
+                <strong>Geltungsraum der Versicherung:</strong><br />
+                Deutschland
+            </p>
+
+            <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Verbraucherstreitbeilegung/Universalschlichtungsstelle</h3>
+            <p>
+              Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
             </p>
 
             <h3 className="text-2xl font-bold font-headline text-foreground mt-8 mb-4">Haftungsausschluss (Disclaimer)</h3>
