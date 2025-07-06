@@ -24,7 +24,7 @@ export function Hero() {
       </div>
       <div className="relative h-80 lg:h-[500px] w-full rounded-2xl overflow-hidden shadow-xl">
         <Image
-          src="/images/2019-06-25-Julia Jordan-FOVEART_DSCF0195 1.jpg"
+          src="/images/2019-06-25-Julia Jordan-FOVEART_DSCF0195 1.webp"
           alt="Eine ruhige Naturkulisse als Symbol für Wohlbefinden"
           fill
           className="object-cover"

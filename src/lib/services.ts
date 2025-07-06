@@ -20,7 +20,8 @@ export const services: Service[] = [
     title: "Vitamin C Infusion",
     description: "Vitamin-C-Infusionen können zur Unterstützung körpereigener Abwehrkräfte beitragen.",
     longDescription: `<h3>Was ist Vitamin C?</h3><p>Vitamin C ist ein wasserlösliches Vitamin. Der Mensch kann Vitamin C nicht selbst herstellen sondern muss es über die Ernährung aufnehmen. Eine gesunde Ernährung muss also genügend Vitamin C enthalten. Bei Krankheit oder vermehrter Stressbelastung steigt der Bedarf an Vitamin C an.</p><p>Vitamin C kann nicht vom Körper gespeichert werden. Auch der Darm kann nur eine begrenzte Menge an Vitamin C aufnehmen (ca. 200mg). Deshalb können orale Einnahmen keine hohen Vitamin-C-Spiegel erreichen.</p><h3>Vitamin C ist an vielen Prozessen im Körper beteiligt:</h3><ul><li>Schützt Gewebe vor oxidativen Stress</li><li>Unterstützt das Immunsystem und kardiovaskuläre System</li><li>Entgiftende Abläufe in der Leber</li><li>Wundheilung und Knochenstoffwechsel</li><li>Energiestoffwechsel</li><li>Eisenstoffwechsel</li></ul><h3>Wofür kann eine Vitamin-C-Infusion eingesetzt werden?</h3><ul><li>Vitamin-C-Mangelzustände</li><li>Erhöhter Verbrauch von Vitamin C durch:</li></ul><ul class="ml-6"><li>Stressbelastung (Long-Covid)</li><li>Entzündliche Erkrankungen</li><li>Allergien</li><li>chronische Darmerkrankungen</li><li>Blasenentzündungen</li><li>Infektanfälligkeit</li><li>Wundheilungsstörungen</li><li>Unterstützt die Eisenaufnahme</li><li>Erhöhte Leberwerte / Fettleber</li></ul><h3>Wie häufig sollte eine Vitamin-C-Infusion durchgeführt werden?</h3><p>Die Vitamin-C-Infusion sollte 4-6x im Abstand von 1-3x pro Woche durchgeführt werden.</p><p>Eine Vitamin-C-Infusion lässt sich sehr gut mit kosmetischen Behandlungen kombinieren oder mit homöopathischen Mitteln erweitern. Lassen Sie sich von mir beraten!</p>`,
-    price: 'Beratung & Aufklärung (ca. 30 Min): 32€\nPro Infusion (ca. 45 Min): 49€',
+    price: `Beratung & Aufklärung (ca. 30 Min): 32€
+Pro Infusion (ca. 45 Min): 49€`,
     image: "https://images.unsplash.com/photo-1611073061835-e77b1b16d3f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxWaXRhbWluJTIwQ3xlbnwwfHx8fDE3NTE3NTkwMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "iv drip"
   },
@@ -31,7 +32,7 @@ export const services: Service[] = [
     description: "Traditionelles Ausleitverfahren zur Unterstützung der körpereigenen Regeneration.",
     longDescription: "<h3>Aderlass nach Hildegard von Bingen</h3><p>Der Aderlass nach Hildegard von Bingen ist ein bewährtes Ausleitungsverfahren zur Reinigung des Blutes und zur Entlastung des Körpers. Es dient der Entgiftung, der Verbesserung der Blutzirkulation und der Harmonisierung der Körpersäfte. Diese Behandlung kann bei einer Vielzahl von chronischen Beschwerden und zur allgemeinen Prävention eingesetzt werden.</p>",
     price: "Sitzung: ab 95€",
-    image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0199.jpg",
+    image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0199.webp",
     imageHint: "blood donation"
   },
   {
@@ -57,12 +58,12 @@ export const services: Service[] = [
   {
     slug: "ohrakupunktur",
     icon: Ear,
-    title: "Ohrakupunktur",    description: "Diagnose und Therapie durch Stimulation von Reflexzonen am Ohr zur ganzheitlichen Begleitung von Körper und Psyche",
+    title: "Ohrakupunktur",
+    description: "Diagnose und Therapie durch Stimulation von Reflexzonen am Ohr zur ganzheitlichen Begleitung von Körper und Psyche",
     longDescription: `<h3>Reflexzonen am Ohr</h3><p>Die französische Ohrakupunktur wurde von dem französichen Arzt Paul Nogier ins Leben gerufen und dient der Diagnosefindung und Therapie.</p><p>Das Ohr repräsentiert die Reflexzonen des gesamten menschlichen Körpers. Jeder Punkt im Ohr ist einem bestimmten Organ zugeordnet.</p><p>Zur Diagnosefindung werden diese Punkte, z.B. über einen Hautwiderstandstest, auf Druckschmerz oder Schwäche geprüft.</p><p>Durch das Setzen von kleinen Akupunkturnadeln in die betreffenden Reflexpunkte ist es möglcih auf Organe, Schmerzen und Psyche Einfluss zu nehmen und diese positiv zu beeinflussen.</p>`,
     price: "Individuell nach Anamnese",
-    image: "https://placehold.co/800x600.png",
-    image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0237.jpg",
- imageHint: "ear acupuncture"
+    image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0237.webp",
+    imageHint: "ear acupuncture"
   },
   {
     slug: "entgiftung-entsaeuerung",
@@ -107,10 +108,11 @@ export const services: Service[] = [
   {
     slug: "homoeopathie",
     icon: Sparkles,
-    title: "Homöopathie",    description: "Naturheilkundliche Methode nach dem Ähnlichkeitsprinzip – zur sanften Unterstützung der körpereigenen Regulation.",
+    title: "Homöopathie",
+    description: "Naturheilkundliche Methode nach dem Ähnlichkeitsprinzip – zur sanften Unterstützung der körpereigenen Regulation.",
     longDescription: `<h3>Ähnliches mit Ähnlichem heilen</h3><p>Samuel Hahnemann prägte den Ausdruck “Gleiches mit gleichem Heilen”.</p><p>Homöopathie bildet heute einen eigenständige Therapieform in der Naturheilkunde. Die Einzelsubstanzen, wurden am gesunden Menschen geprüft und nach der Ähnlichkeitsregel in potenzierter Form verabreicht.</p>`,
     price: "Individuell nach Anamnese",
-    image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0259.jpg",
+    image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0259.webp",
     imageHint: "homeopathy medicine"
   }
 ];
