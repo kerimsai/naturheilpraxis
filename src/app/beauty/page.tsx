@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 
 export default function BeautyPage() {
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div className="flex min-h-screen flex-col bg-background beauty-page-background">
       <Header />
       <main className="flex-1">
         <section className="container py-12 md:py-24">

@@ -55,6 +55,10 @@
   }
 }
 
+.beauty-page-background {
+  background: radial-gradient(circle at center, #b3e5fc 0%, rgba(255, 255, 255, 0) 80%);
+}
+
 @layer base {
   * {
     @apply border-border;

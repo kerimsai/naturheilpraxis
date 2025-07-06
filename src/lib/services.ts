@@ -31,7 +31,7 @@ export const services: Service[] = [
     description: "Traditionelles Ausleitverfahren zur Unterstützung der körpereigenen Regeneration.",
     longDescription: "<h3>Aderlass nach Hildegard von Bingen</h3><p>Der Aderlass nach Hildegard von Bingen ist ein bewährtes Ausleitungsverfahren zur Reinigung des Blutes und zur Entlastung des Körpers. Es dient der Entgiftung, der Verbesserung der Blutzirkulation und der Harmonisierung der Körpersäfte. Diese Behandlung kann bei einer Vielzahl von chronischen Beschwerden und zur allgemeinen Prävention eingesetzt werden.</p>",
     price: "Sitzung: ab 95€",
-    image: "https://images.unsplash.com/photo-1657028310103-f53dd49a856a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwYmxvb2R8ZW58MHx8fHwxNzUxODA0NTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0199.jpg",
     imageHint: "blood donation"
   },
   {
@@ -57,12 +57,12 @@ export const services: Service[] = [
   {
     slug: "ohrakupunktur",
     icon: Ear,
-    title: "Ohrakupunktur",
-    description: "Diagnose und Therapie durch Stimulation von Reflexzonen am Ohr zur ganzheitlichen Begleitung von Körper und Psyche",
+    title: "Ohrakupunktur",    description: "Diagnose und Therapie durch Stimulation von Reflexzonen am Ohr zur ganzheitlichen Begleitung von Körper und Psyche",
     longDescription: `<h3>Reflexzonen am Ohr</h3><p>Die französische Ohrakupunktur wurde von dem französichen Arzt Paul Nogier ins Leben gerufen und dient der Diagnosefindung und Therapie.</p><p>Das Ohr repräsentiert die Reflexzonen des gesamten menschlichen Körpers. Jeder Punkt im Ohr ist einem bestimmten Organ zugeordnet.</p><p>Zur Diagnosefindung werden diese Punkte, z.B. über einen Hautwiderstandstest, auf Druckschmerz oder Schwäche geprüft.</p><p>Durch das Setzen von kleinen Akupunkturnadeln in die betreffenden Reflexpunkte ist es möglcih auf Organe, Schmerzen und Psyche Einfluss zu nehmen und diese positiv zu beeinflussen.</p>`,
     price: "Individuell nach Anamnese",
     image: "https://placehold.co/800x600.png",
-    imageHint: "acupuncture ear"
+    image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0237.jpg",
+ imageHint: "ear acupuncture"
   },
   {
     slug: "entgiftung-entsaeuerung",
@@ -91,7 +91,7 @@ export const services: Service[] = [
     description: "Kombinierte Behandlung aus Massage, Reflextherapie und Mobilisation bei diversen Beschwerden.",
     longDescription: `<h3>MNT ( Manuelle-Neuro-Therapie nach Walter Froneberg )</h3><p>Das Besondere an der Manuellen-Neuro-Therapie ist die Kombination aus drei Einzeltechniken:</p><ol><li>Die Behandlung beginnt mit einer spezifischen Muskel- und Nervenmassage.</li><li>Darauf folgt eine Nervenreflextherapie am Fuß. Mit ihr ist es möglich, direkt am und über das Nervensystem den Körper in allen Ebenen zu erfassen.</li><li>Dann erfolgt eine modifizierte Gelenkmobilisation.</li></ol><p>Durch diese bestmöglich aufeinander abgestimmten Einzeltechniken ist ein schneller Zugriff auf Muskel, Bänder, Gelenke, Nerven und Organe weitgehend möglich.</p><p>Die Manuelle Neurotherapie kann vielfache Beschwerden erfassen und schließt somit eine ganzheitliche Betrachtung des Menschen mit ein.</p><h3>Einige Beispiele für Krankheitsbilder:</h3><ul><li>Hexenschuss</li><li>Ischialgie</li><li>Kopfschmerzen</li><li>Magen-Darmprobleme</li><li>Verstopfung (auch nach Schwangerschaft)</li><li>Rückenschmerzen</li><li>uvm.</li></ul>`,
     price: "Individuell nach Anamnese",
-    image: "https://images.unsplash.com/photo-1709651669999-57741c9bf085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXVybyUyMHRoZXJhcGllfGVufDB8fHx8MTc1MTgwNTE4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "/images/feettherapy.avif",
     imageHint: "manual therapy"
   },
   {
@@ -101,17 +101,16 @@ export const services: Service[] = [
     description: "Biochemische Anwendung nach Dr. Schüßler zur Unterstützung körpereigener Prozesse mit ausgewählten Mineralsalzen",
     longDescription: `<h3>Biochemie nach Dr. Schüßler</h3><p>Dr. Schüßler war der Begründer der “Biochemischen Heilweise”. Er hat bei seinen Untersuchungen festgestellt, dass man durch bestimmte Salze, Informationen in den Zellen erneuern und aktivieren kann. Diesen Impuls in der Zelle unterstützte er durch die von ihm entwickelten Mineral-Salze.</p>`,
     price: "Individuell nach Anamnese",
-    image: "https://placehold.co/800x600.png",
+    image: "/images/schuesslersalze.avif",
     imageHint: "minerals salt"
   },
   {
     slug: "homoeopathie",
     icon: Sparkles,
-    title: "Homöopathie",
-    description: "Naturheilkundliche Methode nach dem Ähnlichkeitsprinzip – zur sanften Unterstützung der körpereigenen Regulation.",
+    title: "Homöopathie",    description: "Naturheilkundliche Methode nach dem Ähnlichkeitsprinzip – zur sanften Unterstützung der körpereigenen Regulation.",
     longDescription: `<h3>Ähnliches mit Ähnlichem heilen</h3><p>Samuel Hahnemann prägte den Ausdruck “Gleiches mit gleichem Heilen”.</p><p>Homöopathie bildet heute einen eigenständige Therapieform in der Naturheilkunde. Die Einzelsubstanzen, wurden am gesunden Menschen geprüft und nach der Ähnlichkeitsregel in potenzierter Form verabreicht.</p>`,
     price: "Individuell nach Anamnese",
-    image: "https://placehold.co/800x600.png",
+    image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0259.jpg",
     imageHint: "homeopathy medicine"
   }
 ];
