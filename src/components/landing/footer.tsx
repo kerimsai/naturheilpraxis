@@ -19,7 +19,7 @@ export function Footer() {
               <span className="text-2xl font-bold font-headline">Naturheilpraxis Julia Jordan</span>
             </Link>
             <p className="text-muted-foreground">
-              Ihre Partnerin für ganzheitliche Gesundheit und natürliche Heilung.
+              Ihre Partnerin für ganzheitliche Gesundheit
             </p>
           </div>
 
