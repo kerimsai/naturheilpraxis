@@ -71,7 +71,7 @@ export const services: Service[] = [
     description: "Begleitende naturheilkundliche Maßnahmen zur Unterstützung des Stoffwechsels und des inneren Gleichgewichts",
     longDescription: `<h3>Den Körper entlasten</h3><p>Eine Entgiftungskur und Entsäuerung des Körpers kann bei vielen Beschwerden und Erkrankungen sinnvoll sein. Verschiedenste Ursachen können zu einer Übersäuerung des Körpers beitragen:</p><ul><li>zuviel säurebildende Nahrung z.B.: zuviel Fett, Zucker, Weizenprodukte, Fleisch</li><li>zuckerhaltige Getränke (Säfte), Kaffee/schwarzer Tee, Alkohol</li><li>Bewegungsmangel</li><li>Rauchen</li><li>Medikamente</li><li>Stress, Sorgen, Ängste</li><li>…</li></ul><p>Mein Körper ist eigentlich in der Lage Stoffe, die im Körper nicht benötigt werden auszuscheiden. Dies geschieht über die Ausscheidungsorgane: Haut, Leber, Niere, Darm, Lymphe und Lunge.</p><p>Ist die Säurelast im Körper zu hoch, fallen zuviel Abfallprodukte an. Der Körper kann diese nicht schnell genug loswerden und lagert diese im Bindegewebe ab.</p><p>Diese Ablagerungen können die Funktionen im Körper stören oder Zellen schädigen. Daher kann sich eine regelmäßige Entgiftung und Entsäuerung positiv auf die Regulationsfähigkeit des Körpers auswirken und zur Behandlung von Erkrankungen beitragen.</p>`,
     price: "Individuell nach Anamnese",
-    image: "https://placehold.co/800x600.png",
+    image: "https://images.unsplash.com/photo-1707129785947-ddc627a8bab9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxuYXR1cmFsJTIwbWVkaWNpbmV8ZW58MHx8fHwxNzUxODA0ODI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "detox healthy"
   },
   {
