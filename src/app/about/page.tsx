@@ -58,12 +58,13 @@ export default function AboutPage() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="/images/2019-06-25-Julia Jordan-FOVEART_DSCF0199.jpg"
+                src="https://placehold.co/800x1200.png"
                 alt="Portrait von Julia Jordan"
                 width={800}
                 height={1200}
                 className="rounded-2xl shadow-xl w-full h-auto max-w-[450px]"
                 priority
+                data-ai-hint="portrait woman"
               />
             </div>
           </div>
