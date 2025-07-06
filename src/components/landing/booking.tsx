@@ -1,6 +1,5 @@
 "use client";
 
-import Image from 'next/image';
 import Script from 'next/script';
 
 export function Booking() {
@@ -12,14 +11,6 @@ export function Booking() {
             <p className="text-lg text-muted-foreground mt-2 max-w-xl">
                 Bereit, den ersten Schritt zu besserer Gesundheit zu machen? Buchen Sie Ihren Termin direkt online. Ich freue mich darauf, Sie in meiner Praxis begrüssen zu dürfen.
             </p>
-            <Image
-                src="https://placehold.co/800x600.png"
-                alt="Ein ruhiges und einladendes Praxis-Interieur"
-                width={800}
-                height={600}
-                className="rounded-lg mt-8 hidden lg:block"
-                data-ai-hint="clinic interior"
-            />
         </div>
         <div>
           {/* Calendly Inline-Widget Beginn */}
