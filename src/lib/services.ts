@@ -31,7 +31,7 @@ export const services: Service[] = [
     description: "Traditionelles Ausleitverfahren zur Unterstützung der körpereigenen Regeneration.",
     longDescription: "<h3>Aderlass nach Hildegard von Bingen</h3><p>Der Aderlass nach Hildegard von Bingen ist ein bewährtes Ausleitungsverfahren zur Reinigung des Blutes und zur Entlastung des Körpers. Es dient der Entgiftung, der Verbesserung der Blutzirkulation und der Harmonisierung der Körpersäfte. Diese Behandlung kann bei einer Vielzahl von chronischen Beschwerden und zur allgemeinen Prävention eingesetzt werden.</p>",
     price: "Sitzung: ab 95€",
-    image: "https://images.unsplash.com/photo-1638272467190-4ff6f773315c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibHV0fGVufDB8fHx8MTc1MTgwNDQ2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1657028310103-f53dd49a856a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwYmxvb2R8ZW58MHx8fHwxNzUxODA0NTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
     imageHint: "blood donation"
   },
   {
