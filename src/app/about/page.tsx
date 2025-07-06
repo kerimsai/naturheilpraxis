@@ -58,7 +58,7 @@ export default function AboutPage() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="/images/JuliaJordanNHP.webp"
+                src="/images/2019-06-25-Julia Jordan-FOVEART_DSCF0199.jpg"
                 alt="Portrait von Julia Jordan"
                 width={800}
                 height={1200}
