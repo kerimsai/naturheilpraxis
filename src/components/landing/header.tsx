@@ -7,6 +7,7 @@ import { Sheet, SheetContent, SheetTrigger, SheetClose } from "@/components/ui/s
 const navLinks = [
   { href: "/schwerpunkte", label: "Schwerpunkte" },
   { href: "/services", label: "Leistungen" },
+  { href: "/preise", label: "Preise" },
   { href: "/about", label: "Über mich" },
   { href: "/beauty", label: "Ästhetische Schönheit" },
   { href: "/#booking", label: "Termin" },
