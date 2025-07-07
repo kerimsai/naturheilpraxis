@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
     const {name, email, message} = contactFormSchema.parse(body);
 
     const {data, error} = await resend.emails.send({
-      from: 'Kontaktformular <onboarding@resend.dev>',
+      from: 'Kontaktformular <info@heilpraxis-jordan.de>',
       to: ['info@heilpraxis-jordan.de'],
       subject: `Neue Nachricht von ${name}`,
       reply_to: email,
