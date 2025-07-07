@@ -143,7 +143,7 @@ export function ContactForm() {
             </FormItem>
           )}
         />
-        <Button type="submit">Nachricht senden</Button>
+        <Button type="submit" disabled={form.formState.isSubmitting}>Nachricht senden</Button>
       </form>
     </Form>
   );
