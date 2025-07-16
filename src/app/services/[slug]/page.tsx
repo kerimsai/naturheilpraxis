@@ -47,7 +47,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                 </CardHeader>
                 <CardContent>
                     <p className="text-lg whitespace-pre-line">{price}</p>
-                    <p className="text-sm text-muted-foreground mt-1">Weitere Sitzungen und Pakete auf Anfrage.</p>
+                    <p className="text-sm text-muted-foreground mt-1">Weitere Sitzungen auf Anfrage.</p>
                 </CardContent>
               </Card>
 
@@ -76,7 +76,7 @@ export default function ServiceDetailPage({ params }: { params: { slug: string }
                   </CardHeader>
                   <CardContent>
                       <p className="text-lg whitespace-pre-line">{price}</p>
-                      <p className="text-sm text-muted-foreground mt-1">Weitere Sitzungen und Pakete auf Anfrage.</p>
+                      <p className="text-sm text-muted-foreground mt-1">Weitere Sitzungen auf Anfrage.</p>
                   </CardContent>
               </Card>
             </div>
