@@ -26,6 +26,9 @@ const formSchema = z.object({
   email: z.string().email({
     message: "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
   }),
+  phone: z.string().min(6, {
+    message: "Bitte geben Sie eine gültige Telefonnummer ein.",
+  }),
   message: z.string().min(10, {
     message: "Die Nachricht muss mindestens 10 Zeichen lang sein.",
   }),
@@ -42,6 +45,7 @@ export function ContactForm() {
     defaultValues: {
       name: "",
       email: "",
+      phone: "",
       message: "",
       privacyPolicy: false,
     },
@@ -106,6 +110,19 @@ export function ContactForm() {
             )}
           />
         </div>
+        <FormField
+            control={form.control}
+            name="phone"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Telefonnummer</FormLabel>
+                <FormControl>
+                  <Input placeholder="Ihre Telefonnummer" {...field} />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
         <FormField
           control={form.control}
           name="message"

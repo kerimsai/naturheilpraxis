@@ -7,13 +7,14 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 const contactFormSchema = z.object({
   name: z.string().min(2),
   email: z.string().email(),
+  phone: z.string().min(6),
   message: z.string().min(10),
 });
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const {name, email, message} = contactFormSchema.parse(body);
+    const {name, email, phone, message} = contactFormSchema.parse(body);
 
     const {data, error} = await resend.emails.send({
       from: 'Kontaktformular <info@heilpraxis-jordan.de>',
@@ -27,6 +28,7 @@ export async function POST(req: NextRequest) {
           <hr style="border: none; border-top: 1px solid #eee;" />
           <p><strong>Name:</strong> ${name}</p>
           <p><strong>E-Mail:</strong> <a href="mailto:${email}">${email}</a></p>
+          <p><strong>Telefon:</strong> ${phone}</p>
           <p><strong>Nachricht:</strong></p>
           <p style="background-color: #f9f9f9; border: 1px solid #ddd; padding: 15px; border-radius: 5px; white-space: pre-wrap;">${message}</p>
           <hr style="border: none; border-top: 1px solid #eee;" />
