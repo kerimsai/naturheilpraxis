@@ -25,7 +25,7 @@ export default function BeautyPage() {
                 </p>
                 <div className="flex flex-wrap gap-4 mt-6">
                     <Button asChild size="lg">
-                        <a href="https://the-beauty-room-aachen.de" target="_blank" rel="noopener noreferrer">Zur Website</a>
+                        <a href="https://thebeautyroomaachen.de" target="_blank" rel="noopener noreferrer">Zur Website</a>
                     </Button>
                     <Button asChild variant="outline" size="lg">
                         <Link href="/#booking">Termin vereinbaren</Link>
