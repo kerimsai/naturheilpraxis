@@ -4,6 +4,9 @@ import { focusAreas } from '@/lib/focus-areas';
 
 const baseUrl = 'https://www.heilpraxis-jordan.de';
 
+export const dynamic = 'force-static';
+export const revalidate = 86400; // regenerate daily
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
 
