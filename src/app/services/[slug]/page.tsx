@@ -1,4 +1,4 @@
-
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -7,6 +7,43 @@ import { Footer } from '@/components/landing/footer';
 import { services } from '@/lib/services';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+
+const baseUrl = 'https://www.heilpraxis-jordan.de';
+
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const service = services.find((s) => s.slug === params.slug);
+
+  if (!service) {
+    return {
+      title: 'Leistung – Naturheilpraxis Julia Jordan Aachen',
+    };
+  }
+
+  const title = `${service.title} – Naturheilpraxis Julia Jordan Aachen`;
+  const description = service.description;
+  const imageUrl = service.image.startsWith('http')
+    ? service.image
+    : encodeURI(`${baseUrl}${service.image}`);
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `${baseUrl}/services/${service.slug}/`,
+      images: [
+        {
+          url: imageUrl,
+          alt: service.imageHint ? `${service.title} – ${service.imageHint}` : service.title,
+        },
+      ],
+      locale: 'de_DE',
+      siteName: 'Naturheilpraxis Julia Jordan',
+      type: 'article',
+    },
+  };
+}
 
 export async function generateStaticParams() {
   return services.map((service) => ({

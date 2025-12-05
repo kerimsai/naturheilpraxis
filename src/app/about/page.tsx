@@ -14,39 +14,33 @@ export default function AboutPage() {
                 Wer ich bin ...
               </h1>
               <p>
-                Mein Name ist Julia Jordan und ich arbeite als Heilpraktikerin in Aachen. Ich bin
-                verheiratet und Mutter von zwei Jungen.
+                Mein Name ist Julia Jordan. Als Heilpraktikerin in Aachen begleite ich Menschen bei Haut- und Immunthemen auf naturheilkundliche Weise. Ich bin verheiratet und Mutter von zwei Jungen.
               </p>
               <p>
-                Meine Ausbildung zur Arzthelferin begann ich bei der Bundeswehr in Hannover in
-                der Fachabteilung Dermatologie.
-                Dort entdeckte ich meine Leidenschaft für die Haut und ihre Erkrankungen.
-                Mein damaliger Chef ist ein begnadeter Dermatologe und gab seine Faszination
-                an Mensch und Haut an mich weiter. Dafür bin ich ihm unendlich dankbar.
+                Der erste Schritt führte mich in die Fachabteilung Dermatologie der Bundeswehr Hannover. Dort entdeckte ich meine Faszination für die Haut und ihre Bedürfnisse, geprägt durch die enge Zusammenarbeit mit erfahrenen Dermatologen.
               </p>
               <p>
-                Nach einem Umzug nach Hamburg arbeitete ich weiterhin als Arzthelferin in der
-                Dermatologie. Zusätzlich begann ich meine 3-jährige Vollzeitausbildung zur
-                Heilpraktikerin in der Arcana Heilpraktikerschule. Mit meiner Abschlussprüfung im
-                Gesundheitsamt Hamburg, im November 2010, schloss ich meine Ausbildung
-                erfolgreich ab und bin seitdem Heilpraktikerin.
+                In Hamburg vertiefte ich mein Wissen, absolvierte eine dreijährige Vollzeitausbildung zur Heilpraktikerin und bestand 2010 die amtsärztliche Überprüfung. Seitdem verbinde ich medizinische Erfahrung mit naturheilkundlichen Ansätzen.
               </p>
               <p>
-                Seit 2014 wohne ich nun mit meiner Familie in Aachen. Im Praxiszentrum bei Udo
-                Froneberg, Heilpraktiker in Aachen, erlernte ich zusätzlich die Manuelle
-                Neurotherapie nach Froneberg.
+                2014 zog ich mit meiner Familie nach Aachen. Im Praxiszentrum von Udo Froneberg lernte ich die Manuelle Neurotherapie kennen und integrierte sie in mein Behandlungsspektrum. Hier fand ich meinen beruflichen Heimathafen.
               </p>
               <p>
-                Das Praxiszentrum bot mir an zu bleiben und das habe ich getan.
+                Heute arbeite ich ganzheitlich: Ich höre zu, nehme mir Zeit für Ihre Fragen und erarbeite behutsam Wege, die Ihr Wohlbefinden fördern können.
               </p>
+
+              <div className="space-y-3">
+                <h2 className="text-2xl font-headline text-foreground">Qualifikationen & Werdegang</h2>
+                <ul className="list-disc pl-5 space-y-2 text-foreground">
+                  <li>Ausbildung zur Arzthelferin (Fachabteilung Dermatologie, Bundeswehr Hannover)</li>
+                  <li>3-jährige Vollzeitausbildung zur Heilpraktikerin (Arcana Heilpraktikerschule Hamburg)</li>
+                  <li>Amtsärztliche Überprüfung Gesundheitsamt Hamburg (2010)</li>
+                  <li>Manuelle Neurotherapie nach Froneberg</li>
+                </ul>
+              </div>
+
               <p>
-                Ich bin sehr froh, dass ich den Weg zur Naturheilkunde gefunden habe und eine
-                sehr fundierte Ausbildung zur Heilpraktikerin genießen konnte. Denn darin habe
-                ich meine Berufung gefunden.
-              </p>
-              <p>
-                Ich freue mich, Sie kennenzulernen und gemeinsam mit Ihnen nach einer
-                naturheilkundlichen Lösung für Ihr Anliegen zu suchen.
+                Ich freue mich darauf, Sie kennenzulernen und Sie auf Ihrem Weg zu mehr Hautbalance und Wohlbefinden zu begleiten.
               </p>
               <Image
                 src="/images/signature.png"
