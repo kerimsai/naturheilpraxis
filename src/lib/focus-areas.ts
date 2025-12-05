@@ -7,6 +7,9 @@ export type FocusArea = {
   icon: ForwardRefExoticComponent<Omit<LucideProps, "ref"> & RefAttributes<SVGSVGElement>>;
   title: string;
   shortDescription: string;
+  image: string;
+  imageHint?: string;
+  relatedServices: string[];
   longDescription: string;
 };
 
@@ -16,6 +19,9 @@ export const focusAreas: FocusArea[] = [
         icon: XCircle,
         title: "Akne",
         shortDescription: "Ganzheitliche Begleitung bei Akne durch Erforschung von Ursachen und Anwendung natürlicher Methoden.",
+        image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0200.webp",
+        imageHint: "Ausbalancierte Haut in Nahaufnahme",
+        relatedServices: ["mikrobiom-analyse", "pflanzenheilkunde", "entgiftung-entsaeuerung"],
         longDescription: `
 <p><strong>Akne – wenn die Haut aus dem Gleichgewicht gerät</strong></p>
 <p>Hat Ihr Neugeborenes kleine Pickelchen im Gesicht? Hat Ihre Tochter oder Ihr Sohn mit Mitessern und entzündlicher Haut im Gesicht, am Rücken oder im Brustbereich zu kämpfen? Oder leiden Sie selbst unter unreiner Haut oder Reibeisenhaut an den Oberarmen? Dann könnte es sich um eine Form der Akne handeln.</p>
@@ -39,6 +45,14 @@ export const focusAreas: FocusArea[] = [
         icon: ShieldAlert,
         title: "Allergien & Autoimmunreaktionen",
         shortDescription: "Individuelle naturheilkundliche Unterstützung für Ihr Immunsystem",
+        image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0199.webp",
+        imageHint: "Infusionsvorbereitung in der Praxis",
+        relatedServices: [
+            "vitamin-c-infusion",
+            "mikrobiom-analyse",
+            "entgiftung-entsaeuerung",
+            "homoeopathie"
+        ],
         longDescription: `
 <p><strong>Individuelle naturheilkundliche Unterstützung für Ihr Immunsystem</strong></p>
 <p>Immer mehr Menschen sind von Allergien oder autoimmunen Beschwerden betroffen. In meiner Praxis biete ich naturheilkundliche Verfahren an, die den Körper dabei unterstützen können, besser mit diesen Herausforderungen umzugehen und das Gleichgewicht des Immunsystems zu fördern.</p>
@@ -119,6 +133,9 @@ export const focusAreas: FocusArea[] = [
         icon: Waves,
         title: "Juckreiz",
         shortDescription: "Begleitung bei Juckreiz durch Ursachenforschung und den Einsatz natürlicher Mittel zur Linderung.",
+        image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0195 1.webp",
+        imageHint: "Beruhigende Praxisatmosphäre",
+        relatedServices: ["mikrobiom-analyse", "pflanzenheilkunde", "schuessler-salze"],
         longDescription: `
 <p><strong>Juckreiz – Wenn die Haut ständig ruft</strong></p>
 <p>Ihre Haut juckt ständig, und das Bedürfnis zu kratzen ist Ihr ständiger Begleiter? Ihr Kind kratzt sich vielleicht sogar blutig? Juckreiz kann sehr belastend sein – vor allem, wenn er regelmäßig auftritt oder zu Schlafstörungen führt. Die Ursachen für Juckreiz sind vielfältig: Sie reichen von harmloser trockener Haut bis hin zu Allergien, inneren Erkrankungen oder psychischen Belastungen. Häufig ist der Juckreiz auch Ausdruck eines Ungleichgewichts im Körper. Durch ständiges Kratzen kann die Haut geschädigt werden, was Entzündungen begünstigt.</p>
@@ -156,6 +173,14 @@ export const focusAreas: FocusArea[] = [
         icon: Layers,
         title: "Neurodermitis",
         shortDescription: "Ganzheitliche Begleitung bei Neurodermitis mit Fokus auf Darmgesundheit, Ernährung und Pflanzenheilkunde.",
+        image: "/images/JuliaJordanNHP.webp",
+        imageHint: "Heilpraktikerin Julia Jordan in ihrer Praxis",
+        relatedServices: [
+            "mikrobiom-analyse",
+            "pflanzenheilkunde",
+            "entgiftung-entsaeuerung",
+            "vitamin-c-infusion"
+        ],
         longDescription: `<p><strong>Neurodermitis – Wenn die Haut einfach nicht zur Ruhe kommt</strong></p>
 <p>Leidet Ihre Haut unter quälendem Juckreiz? Müssen Sie sich kratzen, bis die Haut blutet? Besonders an den Beugeseiten der Arme und Beine? Oder zeigt Ihr Kind rote, schuppige Hautstellen und klagt über anhaltenden Juckreiz? Dann könnte es sich um eine Neurodermitis handeln.</p>
 <h3>Was ist Neurodermitis?</h3>
@@ -208,6 +233,14 @@ export const focusAreas: FocusArea[] = [
         icon: DiscAlbum,
         title: "Schuppenflechte",
         shortDescription: "Naturheilkundliche Begleitung bei Schuppenflechte mit dem Ziel, das Immunsystem zu beruhigen und Entzündungen zu reduzieren.",
+        image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0259.webp",
+        imageHint: "Naturheilkundliche Präparate auf einem Tisch",
+        relatedServices: [
+            "mikrobiom-analyse",
+            "pflanzenheilkunde",
+            "entgiftung-entsaeuerung",
+            "vitamin-c-infusion"
+        ],
         longDescription: `<p><strong>Schuppenflechte (Psoriasis) – wenn sich die Haut immer wieder schuppt</strong></p>
 <p>Stellen Sie an Ellbogen oder Knien immer wieder rundliche, scharf begrenzte Hautstellen fest, die leicht gerötet und mit silbrigen Schuppen bedeckt sind – aber kaum jucken? Dann könnte es sich um Psoriasis, auch Schuppenflechte genannt, handeln. Auch wenn diese Hautveränderungen nicht ansteckend sind, empfinden viele Betroffene sie als belastend – optisch wie emotional.</p>
 <h3>Was ist Psoriasis?</h3>
@@ -255,6 +288,13 @@ export const focusAreas: FocusArea[] = [
         icon: Shield,
         title: "Warzen",
         shortDescription: "Unterstützung bei Warzen durch Stärkung der körpereigenen Abwehr mit natürlichen Mitteln.",
+        image: "/images/2019-06-25-Julia Jordan-FOVEART_DSCF0237.webp",
+        imageHint: "Sanfte Behandlungssituation in der Praxis",
+        relatedServices: [
+            "pflanzenheilkunde",
+            "homoeopathie",
+            "schuessler-salze"
+        ],
         longDescription: `<p><strong>Warzen – wenn kleine Hautveränderungen stören</strong></p>
 <p>Entdecken Sie bei sich oder Ihrem Kind verhornte oder erhabene Hautstellen, die einzeln oder in Gruppen auftreten? Sitzen sie vor allem an Händen oder Füßen? Oder hat Ihr Kind stecknadelkopfgroße Knötchen mit einer kleinen Delle in der Mitte? Dann könnte es sich um eine Warzeninfektion handeln.</p>
 <h3>Was sind Warzen?</h3>

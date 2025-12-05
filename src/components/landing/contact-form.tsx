@@ -51,40 +51,26 @@ export function ContactForm() {
     },
   });
 
-  async function onSubmit(values: z.infer<typeof formSchema>) {
-    try {
-      const response = await fetch('https://www.heilpraxis-jordan.de/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(values),
-      });
+  function onSubmit(values: z.infer<typeof formSchema>) {
+    const snippet = values.message.length > 20 ? `${values.message.slice(0, 20)}...` : values.message;
+    const subject = `Anfrage von ${values.name}: ${snippet}`;
+    const body = [
+      `Name: ${values.name}`,
+      `Telefon: ${values.phone}`,
+      `E-Mail: ${values.email}`,
+      '',
+      'Nachricht:',
+      values.message,
+    ].join('\n');
 
-      const data = await response.json();
+    const mailtoLink = `mailto:info@heilpraxis-jordan.de?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-      if (!response.ok) {
-        // Handle specific error messages from the server
-        const errorMessage = data.message || 'Unbekannter Fehler';
-        throw new Error(errorMessage);
-      }
+    window.location.href = mailtoLink;
 
-      toast({
-        title: "Nachricht gesendet",
-        description: "Vielen Dank für Ihre Nachricht. Ich werde mich in Kürze bei Ihnen melden.",
-      });
-      form.reset();
-    } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : 'Unbekannter Fehler';
-      
-      toast({
-        title: "Fehler beim Senden",
-        description: errorMessage.includes('Ungültige Formulardaten') 
-          ? "Bitte überprüfen Sie Ihre Eingaben und versuchen Sie es erneut."
-          : "Ihre Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es später erneut.",
-        variant: "destructive",
-      });
-    }
+    toast({
+      title: "E-Mail-Entwurf geöffnet",
+      description: "Ihr Standard-Mailprogramm öffnet sich mit den eingegebenen Daten.",
+    });
   }
 
   return (
@@ -168,8 +154,8 @@ export function ContactForm() {
             </FormItem>
           )}
         />
-        <Button type="submit" disabled={form.formState.isSubmitting}>
-          {form.formState.isSubmitting ? "Wird gesendet..." : "Nachricht senden"}
+        <Button type="submit">
+          E-Mail öffnen
         </Button>
       </form>
     </Form>
