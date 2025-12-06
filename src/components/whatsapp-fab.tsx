@@ -22,11 +22,7 @@ function WhatsAppIcon(props: React.SVGProps<SVGSVGElement>) {
 
 export function WhatsAppFab() {
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex items-end gap-3">
-      <div className="hidden max-w-xs rounded-xl border border-emerald-100 bg-white/90 px-4 py-3 text-sm text-slate-700 shadow-lg backdrop-blur sm:block">
-        <p className="font-semibold text-slate-900">WhatsApp anfragen</p>
-        <p className="leading-tight">Direkter Kontakt &ndash; freiwillig. Es gelten die Datenschutz&shy;hinweise von WhatsApp.</p>
-      </div>
+    <div className="fixed bottom-6 right-6 z-50">
       <a
         href={whatsappHref}
         target="_blank"
