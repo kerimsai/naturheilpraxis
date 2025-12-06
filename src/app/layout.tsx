@@ -3,6 +3,7 @@ import type {Metadata} from 'next';
 import Script from 'next/script';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
+import { WhatsAppFab } from '@/components/whatsapp-fab';
 
 export const metadata: Metadata = {
   title: 'Naturheilpraxis Julia Jordan',
@@ -23,6 +24,7 @@ export default function RootLayout({
       </head>
       <body className="font-body antialiased">
         {children}
+        <WhatsAppFab />
         <Toaster />
         <Script 
           src="https://cloud.ccm19.de/app.js?apiKey=a572c08ee1bde113afedeccb5f01232260a351e2f657c039&domain=686abba124ec8a7a000ee4c2" 
