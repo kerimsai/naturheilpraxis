@@ -13,7 +13,7 @@
   # This adds a file watcher to startup the firebase emulators. The emulators will only start if
   # a firebase.json file is written into the user's directory
   services.firebase.emulators = {
-    detect = true;
+    detect = false; # Disabled - was causing localStorage.getItem errors
     projectId = "demo-app";
     services = ["auth" "firestore"];
   };

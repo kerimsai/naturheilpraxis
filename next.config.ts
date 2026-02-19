@@ -1,4 +1,5 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
+import './src/lib/localStorage-polyfill';
 
 const nextConfig: NextConfig = {
   /* config options here */
